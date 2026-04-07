@@ -1,0 +1,65 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "GenMail",
+          "useBoldFont": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "Application autonome pour générer et gérer des comptes email temporaires.\n\n**Fonctionnalités:**\n- Génération de comptes tempemail.cc et mail.tm\n- Gestion multi-comptes\n- Lecture des messages entrants\n- Export/import de comptes\n- Interface avec onglets (Studio, Comptes, Inbox, Paramètres)\n\nNécessite iOS 14.0 minimum.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package ID",
+          "text": "com.openclaw.genmail"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "0.1.7"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Requires",
+          "text": "iOS 14.0+"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Section",
+          "text": "Applications"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Maintainer",
+          "text": "CodeGo"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v0.1.7"
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Support tempemail.cc et mail.tm\n- Gestion multi-comptes\n- Interface onglets complète\n- Lecture inbox en temps réel"
+        }
+      ]
+    }
+  ]
+}

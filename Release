@@ -1,0 +1,8 @@
+Origin: CodeGo Tweaks
+Label: CodeGo Tweaks
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64
+Components: main
+Description: CodeGo's iOS Tweaks & Apps Repository

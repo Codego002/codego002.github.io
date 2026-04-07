@@ -1,0 +1,30 @@
+Package: com.sgwc.ghostextender
+Name: GhostExtender
+Version: 2.0.0-11
+Architecture: iphoneos-arm64
+Description: Extends Ghost v1.5 with new iPhone models and iOS versions
+Maintainer: CodeGo
+Author: CodeGo
+Section: Tweaks
+Depends: mobilesubstrate
+Filename: debs/com.sgwc.ghostextender_2.0.0-11-2+debug_iphoneos-arm64.deb
+Depiction: https://codego002.github.io/depictions/com.sgwc.ghostextender/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.sgwc.ghostextender/depiction.json
+Tag: purpose::extension, role::enduser
+
+Package: com.openclaw.genmail
+Name: GenMail
+Version: 0.1.7
+Architecture: iphoneos-arm64
+Description: Application iPhone autonome pour generer et gerer des comptes email temporaires
+Maintainer: CodeGo
+Author: CodeGo
+Section: Applications
+Priority: optional
+Depends: firmware (>= 14.0)
+Filename: debs/com.openclaw.genmail_0.1.7-20+debug_iphoneos-arm64.deb
+Icon: https://codego002.github.io/debs/genmail-icon.png
+Depiction: https://codego002.github.io/depictions/com.openclaw.genmail/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.openclaw.genmail/depiction.json
+Tag: purpose::application, role::enduser
+

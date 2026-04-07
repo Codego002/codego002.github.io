@@ -1,0 +1,60 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "GhostExtender",
+          "useBoldFont": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "Extends **Ghost v1.5** with support for the latest iPhone models and iOS versions.\n\n**New iPhone Models:**\n- iPhone 16e (iPhone17,5)\n- iPhone 17 (iPhone18,3)\n- iPhone 17 Pro (iPhone18,1)\n- iPhone 17 Pro Max (iPhone18,2)\n- iPhone Air (iPhone18,4)\n\n**New iOS Versions:**\n- iOS 18.2 — 18.5\n- iOS 26.0 — 26.4\n\nRequires Ghost v1.5 installed.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package ID",
+          "text": "com.sgwc.ghostextender"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "2.0.0-11"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Requires",
+          "text": "Ghost v1.5, iOS 15+"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Maintainer",
+          "text": "CodeGo"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v2.0.0-11"
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Added iPhone Air (iPhone18,4) support\n- Added iPhone 17 / 17 Pro / 17 Pro Max support\n- Added iOS 26.x support\n- Fixed frame rendering on iOS 16"
+        }
+      ]
+    }
+  ]
+}

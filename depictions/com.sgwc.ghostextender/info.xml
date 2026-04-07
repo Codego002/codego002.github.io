@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>minVersion</key><string>0</string>
+  <key>headerImage</key><string>https://codego002.github.io/debs/ghostextender-banner.png</string>
+  <key>tabs</key>
+  <array>
+    <dict>
+      <key>tabname</key><string>Details</string>
+      <key>views</key>
+      <array>
+        <dict>
+          <key>class</key><string>DepictionSubheaderView</string>
+          <key>title</key><string>GhostExtender</string>
+          <key>useBoldFont</key><true/>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionMarkdownTextView</string>
+          <key>markdown</key><string>Extends **Ghost v1.5** with support for the latest iPhone models and iOS versions.
+
+**New iPhone Models:**
+- iPhone 16e (iPhone17,5)
+- iPhone 17 (iPhone18,3)
+- iPhone 17 Pro (iPhone18,1)
+- iPhone 17 Pro Max (iPhone18,2)
+- iPhone Air (iPhone18,4)
+
+**New iOS Versions:**
+- iOS 18.2 — 18.5
+- iOS 26.0 — 26.4
+
+Requires Ghost v1.5 installed.</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionSeparatorView</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Package ID</string>
+          <key>text</key><string>com.sgwc.ghostextender</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Version</string>
+          <key>text</key><string>2.0.0-11</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Requires</string>
+          <key>text</key><string>Ghost v1.5, iOS 15+</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Maintainer</string>
+          <key>text</key><string>CodeGo</string>
+        </dict>
+      </array>
+    </dict>
+    <dict>
+      <key>tabname</key><string>Changelog</string>
+      <key>views</key>
+      <array>
+        <dict>
+          <key>class</key><string>DepictionSubheaderView</string>
+          <key>title</key><string>v2.0.0-11</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionMarkdownTextView</string>
+          <key>markdown</key><string>- Added iPhone Air (iPhone18,4) support
+- Added iPhone 17 / 17 Pro / 17 Pro Max support
+- Added iOS 26.x support
+- Fixed frame rendering on iOS 16</string>
+        </dict>
+      </array>
+    </dict>
+  </array>
+</dict>
+</plist>
