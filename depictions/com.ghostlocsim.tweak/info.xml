@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>minVersion</key><string>0</string>
+  <key>tabs</key>
+  <array>
+    <dict>
+      <key>tabname</key><string>Details</string>
+      <key>views</key>
+      <array>
+        <dict>
+          <key>class</key><string>DepictionSubheaderView</string>
+          <key>title</key><string>GhostLocSim</string>
+          <key>useBoldFont</key><true/>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionMarkdownTextView</string>
+          <key>markdown</key><string>Tweak pour **Ghost v1.5** qui integre **LocationSimulation (LocSim) by Mika**.
+
+**Fonctionnalites :**
+- Auto-remplit le nom du conteneur avec la ville active dans LocSim
+- Suppression de conteneur par appui long (double-tap pour confirmer)
+- Panel de presets (iPhone 16e, 17, 17 Pro, 17 Pro Max, Air)
+
+**Dependance requise :**
+- **LocationSimulation (LocSim) by Mika** doit etre installe et actif avec au moins une localisation en mode faking
+- Le tweak lit le plist LocSim pour recuperer la ville active
+- Sans LocSim actif, le tweak fonctionne mais n'auto-remplit rien
+
+Supporte ARM64e (A12+, Dopamine/Procursus).</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionSeparatorView</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Package ID</string>
+          <key>text</key><string>com.ghostlocsim.tweak</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Version</string>
+          <key>text</key><string>0.0.1-16 (v26)</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Requires</string>
+          <key>text</key><string>Ghost v1.5, LocationSimulation (LocSim) by Mika, Crane, iOS 16+</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Maintainer</string>
+          <key>text</key><string>CodeGo</string>
+        </dict>
+      </array>
+    </dict>
+    <dict>
+      <key>tabname</key><string>Changelog</string>
+      <key>views</key>
+      <array>
+        <dict>
+          <key>class</key><string>DepictionSubheaderView</string>
+          <key>title</key><string>v26</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionMarkdownTextView</string>
+          <key>markdown</key><string>- Clean container deletion (no more kill/restart)
+- Alert guard: auto-fill only in "New Container" modal
+- ARM64e PAC-safe (no blocks, POSIX logging)</string>
+        </dict>
+      </array>
+    </dict>
+  </array>
+</dict>
+</plist>
