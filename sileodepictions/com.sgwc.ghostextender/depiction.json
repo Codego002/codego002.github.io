@@ -8,13 +8,13 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "GhostExtender",
+          "title": "GhostExtender Complete",
           "useBoldFont": true,
           "useBottomMargin": false
         },
         {
           "class": "DepictionMarkdownTextView",
-          "markdown": "Extends **Ghost v1.5** with support for the latest iPhone models and iOS versions.\n\n**New iPhone Models:**\n- iPhone 16e (iPhone17,5)\n- iPhone 17 (iPhone18,3)\n- iPhone 17 Pro (iPhone18,1)\n- iPhone 17 Pro Max (iPhone18,2)\n- iPhone Air (iPhone18,4)\n\n**New iOS Versions:**\n- iOS 18.2 — 18.5\n- iOS 26.0 — 26.4\n\nRequires Ghost v1.5 installed.",
+          "markdown": "Extension pour l'app **Ghost** — ajoute la prise en charge des iPhones récents et des versions iOS récentes.\n\n**iPhones supportés :**\n- iPhone 16e (iPhone17,5)\n- iPhone 17 (iPhone18,3)\n- iPhone 17 Pro (iPhone18,1)\n- iPhone 17 Pro Max (iPhone18,2)\n- iPhone Air (iPhone18,4)\n\n**iOS supportés :**\n- iOS 18.2 à 26\n\nInclut les images de modèles et les presets de configuration prêts à l'emploi, automatiquement installés dans le container Ghost au moment de l'installation.",
           "useSpacing": true
         },
         {
@@ -28,7 +28,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "2.0.0-11"
+          "text": "2.0.0-complete"
         },
         {
           "class": "DepictionTableTextView",
