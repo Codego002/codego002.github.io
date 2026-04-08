@@ -5,13 +5,13 @@ Maintainer: CodeGo
 Author: CodeGo
 Installed-Size: 5800
 Depends: mobilesubstrate
-Filename: https://github.com/Codego002/codego002.github.io/releases/download/v1.0.0/GhostExtender_Complete_v1.deb
+Filename: debs/GhostExtender_Complete_v1.deb
 Size: 1740884
 MD5sum: 9cbfb09cbae9398f698a9e25ef1107eb
 SHA1: de5f8497e0a0844668407e808a062c4d747f1467
 SHA256: 46e4e493c2f3599aedbac9ee6a6d12af46ecb3e4c50aaa09045c67bd8ba05bf2
 Section: Tweaks
-Description: GhostExtender complet - dylib + images + presets (iPhone 16e, 17, 17 Pro, 17 Pro Max, Air, iOS 18.2-26.4)
+Description: Etend Ghost v1.5 avec les derniers modeles iPhone (16e, 17, 17 Pro, 17 Pro Max, Air) et iOS (18.2-26.4). Inclut images et presets.
 Name: GhostExtender Complete
 Depiction: https://codego002.github.io/depictions/com.sgwc.ghostextender/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.sgwc.ghostextender/depiction.json
@@ -23,14 +23,14 @@ Maintainer: CodeGo
 Author: CodeGo
 Installed-Size: 736
 Depends: firmware (>= 14.0)
-Filename: https://github.com/Codego002/codego002.github.io/releases/download/v1.0.0/com.openclaw.genmail_0.1.7-20+debug_iphoneos-arm64.deb
+Filename: debs/com.openclaw.genmail_0.1.7-20+debug_iphoneos-arm64.deb
 Size: 240902
 MD5sum: dc11ed27462f9dfde30c83d4b3af46a6
 SHA1: 792c4e47b277f7bedd321b3afac84d1c6c29edbd
 SHA256: e371475ac7544f96e03fbedf6cbf40a938a9bbc11dcebccffc1062e66e9445ac
 Section: Applications
 Priority: optional
-Description: Application iPhone autonome pour generer et gerer des comptes email temporaires
+Description: Application autonome pour generer et gerer des comptes email temporaires (tempemail.cc et mail.tm)
 Name: GenMail
 Icon: https://codego002.github.io/debs/genmail-icon.png
 Depiction: https://codego002.github.io/depictions/com.openclaw.genmail/info.xml
@@ -42,14 +42,14 @@ Architecture: iphoneos-arm64
 Maintainer: CodeGo
 Author: CodeGo
 Installed-Size: 208
-Depends: mobilesubstrate
-Filename: https://github.com/Codego002/codego002.github.io/releases/download/v1.0.0/com.ghostlocsim.tweak_0.0.1-33+debug_iphoneos-arm64.deb
+Depends: mobilesubstrate, com.sgwc.ghostextender
+Filename: debs/com.ghostlocsim.tweak_0.0.1-33+debug_iphoneos-arm64.deb
 Size: 24356
 MD5sum: c4a64d8747dbc5fcc99a17890c0218be
 SHA1: c09e1f5580cd291882889764117af637719c9571
 SHA256: 868bd99162567611abe3042210cbace9ad8f0f60ea122ede994a6d5b7dcaa0ba
 Section: Tweaks
-Description: Pre-remplit le champ nom dans Ghost avec la ville LocSim active
+Description: Companion de GhostExtender - Pre-remplit le champ ville dans Ghost avec la ville LocSim active
 Name: GhostLocSim
 Depiction: https://codego002.github.io/depictions/com.ghostlocsim.tweak/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.ghostlocsim.tweak/depiction.json
