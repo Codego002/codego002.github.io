@@ -1,47 +1,58 @@
-Package: com.ghostlocsim.tweak
-Version: 0.0.1-33+debug
-Architecture: iphoneos-arm64
-Maintainer: local
-Installed-Size: 208
-Depends: mobilesubstrate
-Filename: debs/com.ghostlocsim.tweak_0.0.1-33+debug_iphoneos-arm64.deb
-Size: 24356
-MD5sum: c4a64d8747dbc5fcc99a17890c0218be
-SHA1: c09e1f5580cd291882889764117af637719c9571
-SHA256: 868bd99162567611abe3042210cbace9ad8f0f60ea122ede994a6d5b7dcaa0ba
-Section: Tweaks
-Description: Pré-remplit le champ nom dans Ghost avec la ville LocSim active
-Author: local
-Name: GhostLocSim
-
-Package: com.openclaw.genmail
-Version: 0.1.7-20+debug
-Architecture: iphoneos-arm64
-Maintainer: god
-Installed-Size: 736
-Depends: firmware (>= 14.0)
-Filename: debs/com.openclaw.genmail_0.1.7-20+debug_iphoneos-arm64.deb
-Size: 240902
-MD5sum: dc11ed27462f9dfde30c83d4b3af46a6
-SHA1: 792c4e47b277f7bedd321b3afac84d1c6c29edbd
-SHA256: e371475ac7544f96e03fbedf6cbf40a938a9bbc11dcebccffc1062e66e9445ac
-Section: Applications
-Priority: optional
-Description: Application iPhone autonome pour générer et gérer des comptes tempemail.cc et mail.tm
-Author: god
-Name: GenMail
-
 Package: com.sgwc.ghostextender
-Version: 2.0.0-11-3+debug
+Name: GhostExtender
+Version: 2.0.0-11-3
 Architecture: iphoneos-arm64
-Maintainer: TWEAKER
-Installed-Size: 1884
+Description: Extends Ghost v1.5 with new iPhone models and iOS versions
+Maintainer: CodeGo
+Author: CodeGo
+Section: Tweaks
 Depends: mobilesubstrate
+Installed-Size: 1884
 Filename: debs/com.sgwc.ghostextender_2.0.0-11-3+debug_iphoneos-arm64.deb
 Size: 1746522
 MD5sum: 85c9fedd9f3fad8d019a016cdb0b806a
 SHA1: 6b44555c2ab0ca150b5e0d4551f9f2e729dbe45d
 SHA256: 75441c2d03fb666a7795bdd8a00d540ac983449aedd5ddb7b967af487f1033f1
-Description: Extends Ghost v1.5 with new iPhone models and iOS versions
-Name: GhostExtender
+Depiction: https://codego002.github.io/depictions/com.sgwc.ghostextender/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.sgwc.ghostextender/depiction.json
+Tag: purpose::extension, role::enduser
 
+Package: com.openclaw.genmail
+Name: GenMail
+Version: 0.1.7
+Architecture: iphoneos-arm64
+Description: Application iPhone autonome pour generer et gerer des comptes email temporaires
+Maintainer: CodeGo
+Author: CodeGo
+Section: Applications
+Priority: optional
+Depends: firmware (>= 14.0)
+Installed-Size: 736
+Filename: debs/com.openclaw.genmail_0.1.7-20+debug_iphoneos-arm64.deb
+Size: 240902
+MD5sum: dc11ed27462f9dfde30c83d4b3af46a6
+SHA1: 792c4e47b277f7bedd321b3afac84d1c6c29edbd
+SHA256: e371475ac7544f96e03fbedf6cbf40a938a9bbc11dcebccffc1062e66e9445ac
+Icon: https://codego002.github.io/debs/genmail-icon.png
+Depiction: https://codego002.github.io/depictions/com.openclaw.genmail/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.openclaw.genmail/depiction.json
+Tag: purpose::application, role::enduser
+
+Package: com.ghostlocsim.tweak
+Name: GhostLocSim
+Version: 0.0.1-33
+Architecture: iphoneos-arm64
+Description: Pre-remplit le champ nom dans Ghost avec la ville LocSim active. Requiert LocationSimulation (LocSim) by Mika.
+Maintainer: CodeGo
+Author: CodeGo
+Section: Tweaks
+Depends: mobilesubstrate
+Installed-Size: 208
+Filename: debs/com.ghostlocsim.tweak_0.0.1-33+debug_iphoneos-arm64.deb
+Size: 24356
+MD5sum: c4a64d8747dbc5fcc99a17890c0218be
+SHA1: c09e1f5580cd291882889764117af637719c9571
+SHA256: 868bd99162567611abe3042210cbace9ad8f0f60ea122ede994a6d5b7dcaa0ba
+Depiction: https://codego002.github.io/depictions/com.ghostlocsim.tweak/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.ghostlocsim.tweak/depiction.json
+Tag: purpose::extension, role::enduser
