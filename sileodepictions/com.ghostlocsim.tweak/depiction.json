@@ -1,6 +1,8 @@
 {
   "minVersion": "0.1",
   "class": "DepictionTabView",
+  "headerImage": "",
+  "tintColor": "#007aff",
   "tabs": [
     {
       "tabname": "Details",
@@ -9,51 +11,28 @@
         {
           "class": "DepictionSubheaderView",
           "title": "GhostLocSim",
-          "useBoldFont": true,
-          "useBottomMargin": false
+          "useBoldFont": true
         },
         {
           "class": "DepictionMarkdownTextView",
-          "markdown": "Tweak pour **Ghost v1.5** qui génère automatiquement un nom de ville dans le champ de saisie lors de la création d'un conteneur.\n\nUtilise la ville active dans **LocationSimulation (LocSim) by Mika**.\n\nNécessite GhostExtender et LocSim installés.",
-          "useSpacing": true
+          "markdown": "Tweak pour **Ghost** qui genere automatiquement un nom de ville dans le champ de saisie lors de la creation d'un conteneur.\n\nUtilise la ville active dans **LocSim by Mika**.\n\nNecessite GhostExtender et LocSim installes.",
+          "tintColor": "#007aff"
         },
         {
           "class": "DepictionSeparatorView"
         },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Package ID",
-          "text": "com.ghostlocsim.tweak"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Version",
-          "text": "0.0.1-33"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Requires",
-          "text": "GhostExtender, LocSim by Mika, iOS 15+"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Maintainer",
-          "text": "CodeGo"
-        }
+        {"class": "DepictionTableTextView","title": "Package ID","text": "com.ghostlocsim.tweak"},
+        {"class": "DepictionTableTextView","title": "Version","text": "0.0.1-33"},
+        {"class": "DepictionTableTextView","title": "Requires","text": "GhostExtender, LocSim by Mika"},
+        {"class": "DepictionTableTextView","title": "Maintainer","text": "CodeGo"}
       ]
     },
     {
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
-        {
-          "class": "DepictionSubheaderView",
-          "title": "v0.0.1-33"
-        },
-        {
-          "class": "DepictionMarkdownTextView",
-          "markdown": "- Auto-fill ville depuis LocSim dans le champ Create Container\n- Support ARM64e (A12+)"
-        }
+        {"class": "DepictionSubheaderView","title": "v0.0.1-33"},
+        {"class": "DepictionMarkdownTextView","markdown": "- Auto-fill ville depuis LocSim dans Create Container\n- Support ARM64e (A12+)","tintColor": "#007aff"}
       ]
     }
   ]

@@ -1,6 +1,8 @@
 {
   "minVersion": "0.1",
   "class": "DepictionTabView",
+  "headerImage": "",
+  "tintColor": "#007aff",
   "tabs": [
     {
       "tabname": "Details",
@@ -9,13 +11,12 @@
         {
           "class": "DepictionSubheaderView",
           "title": "GhostExtender Complete",
-          "useBoldFont": true,
-          "useBottomMargin": false
+          "useBoldFont": true
         },
         {
           "class": "DepictionMarkdownTextView",
-          "markdown": "Extension pour l'app **Ghost** — ajoute la prise en charge des iPhones récents et des versions iOS récentes.\n\n**iPhones supportés :**\n- iPhone 16e (iPhone17,5)\n- iPhone 17 (iPhone18,3)\n- iPhone 17 Pro (iPhone18,1)\n- iPhone 17 Pro Max (iPhone18,2)\n- iPhone Air (iPhone18,4)\n\n**iOS supportés :**\n- iOS 18.2 à 26\n\nInclut les images de modèles et les presets de configuration prêts à l'emploi, automatiquement installés dans le container Ghost au moment de l'installation.",
-          "useSpacing": true
+          "markdown": "Extension pour l'app **Ghost** qui ajoute la prise en charge des iPhones recents et iOS recents.\n\n**iPhones supportes :**\n- iPhone 16e\n- iPhone 17\n- iPhone 17 Pro\n- iPhone 17 Pro Max\n- iPhone Air\n\n**iOS supportes :** 18.2 a 26\n\nInclut images et presets installes automatiquement dans le container Ghost.",
+          "tintColor": "#007aff"
         },
         {
           "class": "DepictionSeparatorView"
@@ -28,7 +29,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "2.0.0-complete"
+          "text": "2.1.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -48,11 +49,12 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "v2.0.0-11"
+          "title": "v2.1.0"
         },
         {
           "class": "DepictionMarkdownTextView",
-          "markdown": "- Added iPhone Air (iPhone18,4) support\n- Added iPhone 17 / 17 Pro / 17 Pro Max support\n- Added iOS 26.x support\n- Fixed frame rendering on iOS 16"
+          "markdown": "- Images et presets inclus dans le .deb\n- iPhone 17 Pro Max, 17 Pro, 17, Air, 16e\n- iOS 18.2 a 26",
+          "tintColor": "#007aff"
         }
       ]
     }
