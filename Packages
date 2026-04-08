@@ -1,6 +1,6 @@
 Package: com.sgwc.ghostextender
 Name: GhostExtender
-Version: 2.0.0-11-3
+Version: 2.0.0-11-4
 Architecture: iphoneos-arm64
 Description: Extends Ghost v1.5 with new iPhone models and iOS versions
 Maintainer: CodeGo
@@ -8,11 +8,11 @@ Author: CodeGo
 Section: Tweaks
 Depends: mobilesubstrate
 Installed-Size: 1884
-Filename: debs/com.sgwc.ghostextender_2.0.0-11-3+debug_iphoneos-arm64.deb
-Size: 1746522
-MD5sum: 85c9fedd9f3fad8d019a016cdb0b806a
-SHA1: 6b44555c2ab0ca150b5e0d4551f9f2e729dbe45d
-SHA256: 75441c2d03fb666a7795bdd8a00d540ac983449aedd5ddb7b967af487f1033f1
+Filename: debs/com.sgwc.ghostextender_2.0.0-11-4+debug_iphoneos-arm64.deb
+Size: 1749768
+MD5sum: d71a7f6e9ea7ca0916911323a2a4848e
+SHA1: ec2c0bedda1d4755bf375926a8e5a2c8e4c01e41
+SHA256: b0648bd6c6c2013791e60ba3d2ce55c98c3c4849011cdc1e2c019b6594ee712c
 Depiction: https://codego002.github.io/depictions/com.sgwc.ghostextender/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.sgwc.ghostextender/depiction.json
 Tag: purpose::extension, role::enduser
