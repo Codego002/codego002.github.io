@@ -1,7 +1,6 @@
 {
-  "minVersion": "0.1",
+  "minVersion": "0.4",
   "class": "DepictionTabView",
-  "headerImage": "",
   "tintColor": "#007aff",
   "tabs": [
     {
@@ -11,27 +10,17 @@
         {
           "class": "DepictionSubheaderView",
           "title": "GhostExtender Complete",
-          "useBoldFont": true
+          "useBoldText": true
         },
         {
-          "class": "DepictionLabelView",
-          "text": "Extension pour Ghost — ajoute la prise en charge des iPhones recents et iOS recents.",
-          "textColor": "#ffffff"
+          "class": "DepictionMarkdownView",
+          "markdown": "Extension pour Ghost — ajoute la prise en charge des iPhones récents et iOS récents.",
+          "useSpacing": true
         },
         {
-          "class": "DepictionLabelView",
-          "text": "iPhones: 16e, 17, 17 Pro, 17 Pro Max, Air",
-          "textColor": "#aaaaaa"
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "iOS: 18.2 a 26",
-          "textColor": "#aaaaaa"
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "Inclut images et presets installes automatiquement.",
-          "textColor": "#aaaaaa"
+          "class": "DepictionMarkdownView",
+          "markdown": "**iPhones:** 16e, 17, 17 Pro, 17 Pro Max, Air\n\n**iOS:** 18.2 à 26\n\nInclut images et presets installés automatiquement.",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -39,17 +28,20 @@
         {"class": "DepictionTableTextView","title": "Package ID","text": "com.sgwc.ghostextender"},
         {"class": "DepictionTableTextView","title": "Version","text": "2.1.0"},
         {"class": "DepictionTableTextView","title": "Requires","text": "Ghost v1.5, iOS 15+"},
-        {"class": "DepictionTableTextView","title": "Maintainer","text": "CodeGo"}
+        {"class": "DepictionTableTextView","title": "Maintainer","text": "CodeGo"},
+        {"class": "DepictionSpacerView","spacing": 16}
       ]
     },
     {
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
-        {"class": "DepictionSubheaderView","title": "v2.1.0"},
-        {"class": "DepictionLabelView","text": "- Images et presets inclus dans le .deb","textColor": "#aaaaaa"},
-        {"class": "DepictionLabelView","text": "- iPhone 17 Pro Max, 17 Pro, 17, Air, 16e","textColor": "#aaaaaa"},
-        {"class": "DepictionLabelView","text": "- iOS 18.2 a 26","textColor": "#aaaaaa"}
+        {"class": "DepictionSubheaderView","title": "v2.1.0","useBoldText": true},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Images et presets inclus dans le .deb\n- iPhone 17 Pro Max, 17 Pro, 17, Air, 16e\n- iOS 18.2 à 26",
+          "useSpacing": true
+        }
       ]
     }
   ]

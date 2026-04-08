@@ -1,7 +1,6 @@
 {
-  "minVersion": "0.1",
+  "minVersion": "0.4",
   "class": "DepictionTabView",
-  "headerImage": "",
   "tintColor": "#007aff",
   "tabs": [
     {
@@ -11,17 +10,17 @@
         {
           "class": "DepictionSubheaderView",
           "title": "GhostLocSim",
-          "useBoldFont": true
+          "useBoldText": true
         },
         {
-          "class": "DepictionLabelView",
-          "text": "Genere automatiquement un nom de ville dans le champ Create Container de Ghost.",
-          "textColor": "#ffffff"
+          "class": "DepictionMarkdownView",
+          "markdown": "Génère automatiquement un nom de ville dans le champ Create Container de Ghost.",
+          "useSpacing": true
         },
         {
-          "class": "DepictionLabelView",
-          "text": "Utilise la ville active dans LocSim by Mika.",
-          "textColor": "#aaaaaa"
+          "class": "DepictionMarkdownView",
+          "markdown": "Utilise la ville active dans **LocSim by Mika**.",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -29,16 +28,20 @@
         {"class": "DepictionTableTextView","title": "Package ID","text": "com.ghostlocsim.tweak"},
         {"class": "DepictionTableTextView","title": "Version","text": "0.0.1-33"},
         {"class": "DepictionTableTextView","title": "Requires","text": "GhostExtender, LocSim by Mika"},
-        {"class": "DepictionTableTextView","title": "Maintainer","text": "CodeGo"}
+        {"class": "DepictionTableTextView","title": "Maintainer","text": "CodeGo"},
+        {"class": "DepictionSpacerView","spacing": 16}
       ]
     },
     {
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
-        {"class": "DepictionSubheaderView","title": "v0.0.1-33"},
-        {"class": "DepictionLabelView","text": "- Auto-fill ville depuis LocSim","textColor": "#aaaaaa"},
-        {"class": "DepictionLabelView","text": "- Support ARM64e (A12+)","textColor": "#aaaaaa"}
+        {"class": "DepictionSubheaderView","title": "v0.0.1-33","useBoldText": true},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Auto-fill ville depuis LocSim\n- Support ARM64e (A12+)",
+          "useSpacing": true
+        }
       ]
     }
   ]
