@@ -1,14 +1,14 @@
 Package: com.ghostlocsim.tweak
-Version: 0.0.1-16+debug
+Version: 0.0.1-33+debug
 Architecture: iphoneos-arm64
 Maintainer: local
 Installed-Size: 208
 Depends: mobilesubstrate
-Filename: ./debs/com.ghostlocsim.tweak_0.0.1-16+debug_iphoneos-arm64.deb
-Size: 19100
-MD5sum: 7eef21400d53fa43a6e45b5dd70d3a57
-SHA1: 1de089ef34a5612691d29723cb9652f37f797097
-SHA256: 5d44ec3d318afc310526d980bc02529557d087073fa66f6442bac97c40e7684e
+Filename: debs/com.ghostlocsim.tweak_0.0.1-33+debug_iphoneos-arm64.deb
+Size: 24356
+MD5sum: c4a64d8747dbc5fcc99a17890c0218be
+SHA1: c09e1f5580cd291882889764117af637719c9571
+SHA256: 868bd99162567611abe3042210cbace9ad8f0f60ea122ede994a6d5b7dcaa0ba
 Section: Tweaks
 Description: Pré-remplit le champ nom dans Ghost avec la ville LocSim active
 Author: local
@@ -20,7 +20,7 @@ Architecture: iphoneos-arm64
 Maintainer: god
 Installed-Size: 736
 Depends: firmware (>= 14.0)
-Filename: ./debs/com.openclaw.genmail_0.1.7-20+debug_iphoneos-arm64.deb
+Filename: debs/com.openclaw.genmail_0.1.7-20+debug_iphoneos-arm64.deb
 Size: 240902
 MD5sum: dc11ed27462f9dfde30c83d4b3af46a6
 SHA1: 792c4e47b277f7bedd321b3afac84d1c6c29edbd
@@ -37,7 +37,7 @@ Architecture: iphoneos-arm64
 Maintainer: TWEAKER
 Installed-Size: 1884
 Depends: mobilesubstrate
-Filename: ./debs/com.sgwc.ghostextender_2.0.0-11-3+debug_iphoneos-arm64.deb
+Filename: debs/com.sgwc.ghostextender_2.0.0-11-3+debug_iphoneos-arm64.deb
 Size: 1746522
 MD5sum: 85c9fedd9f3fad8d019a016cdb0b806a
 SHA1: 6b44555c2ab0ca150b5e0d4551f9f2e729dbe45d
@@ -45,4 +45,3 @@ SHA256: 75441c2d03fb666a7795bdd8a00d540ac983449aedd5ddb7b967af487f1033f1
 Description: Extends Ghost v1.5 with new iPhone models and iOS versions
 Name: GhostExtender
 
-dpkg-scanpackages: info: 3 entrées écrites dans le fichier Packages.
