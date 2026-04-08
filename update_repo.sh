@@ -2,12 +2,10 @@
 # Regenerate Packages + Packages.gz and push to GitHub
 cd "$(dirname "$0")"
 
-echo "[*] Scanning packages..."
-dpkg-scanpackages debs /dev/null 2>/dev/null > Packages
-
-# If dpkg-scanpackages not available, use the manual Packages file
+echo "[*] Using manual Packages file (do not overwrite with dpkg-scanpackages)"
 if [ ! -s Packages ]; then
-  echo "[!] dpkg-scanpackages failed or not installed, keeping existing Packages file"
+  echo "[!] Packages file is empty or missing — cannot continue"
+  exit 1
 fi
 
 echo "[*] Compressing..."

@@ -1,23 +1,26 @@
 Package: com.ghostlocsim.tweak
 Version: 0.0.1-38+debug
 Architecture: iphoneos-arm64
-Maintainer: local
+Maintainer: CodeGo
+Author: CodeGo
 Installed-Size: 208
-Depends: mobilesubstrate
+Depends: mobilesubstrate, com.sgwc.ghostextender
 Filename: debs/com.ghostlocsim.tweak_0.0.1-38+debug_iphoneos-arm64.deb
 Size: 25268
 MD5sum: fdc28f718db1486d61f88723a52785c0
 SHA1: 5f70d1cbdf7648dc7d9c722806b5b83618882994
 SHA256: 3b6762cd1a3a680abc2bb42ee13789737cad29dc1dd9ff37ba6cddef277b5b5e
 Section: Tweaks
-Description: Pré-remplit le champ nom dans Ghost avec la ville LocSim active
-Author: local
+Description: Companion de GhostExtender - Pre-remplit le champ ville dans Ghost avec la ville LocSim active
 Name: GhostLocSim
+Depiction: https://codego002.github.io/depictions/com.ghostlocsim.tweak/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.ghostlocsim.tweak/depiction.json
 
 Package: com.openclaw.genmail
 Version: 0.1.7-20+debug
 Architecture: iphoneos-arm64
-Maintainer: god
+Maintainer: CodeGo
+Author: CodeGo
 Installed-Size: 736
 Depends: firmware (>= 14.0)
 Filename: debs/com.openclaw.genmail_0.1.7-20+debug_iphoneos-arm64.deb
@@ -27,14 +30,18 @@ SHA1: 792c4e47b277f7bedd321b3afac84d1c6c29edbd
 SHA256: e371475ac7544f96e03fbedf6cbf40a938a9bbc11dcebccffc1062e66e9445ac
 Section: Applications
 Priority: optional
-Description: Application iPhone autonome pour générer et gérer des comptes tempemail.cc et mail.tm
-Author: god
+Description: Application autonome pour generer et gerer des comptes email temporaires (tempemail.cc et mail.tm)
 Name: GenMail
+Icon: https://codego002.github.io/debs/genmail-icon.png
+Depiction: https://codego002.github.io/depictions/com.openclaw.genmail/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.openclaw.genmail/depiction.json
 
 Package: com.sgwc.ghostextender
 Version: 2.1.0
 Architecture: iphoneos-arm64
 Maintainer: CodeGo
+Author: CodeGo
+Installed-Size: 5800
 Depends: mobilesubstrate
 Filename: debs/com.sgwc.ghostextender_2.1.0_iphoneos-arm64.deb
 Size: 1739482
@@ -42,6 +49,7 @@ MD5sum: 7eb6ab44cc26040afbeb01071c432455
 SHA1: aee1874127417752a929009260328f8146c2ee69
 SHA256: 72ebabf890e6fb86362e10259d7babccd703865e53b5a9cbe4dd33f9c5f20ce2
 Section: Tweaks
-Description: GhostExtender complet — dylib + images + presets (iPhone 16e, 17, 17 Pro, 17 Pro Max, Air, iOS 18.2-26.4)
+Description: Etend Ghost v1.5 avec les derniers modeles iPhone (16e, 17, 17 Pro, 17 Pro Max, Air) et iOS (18.2-26.4). Inclut images et presets.
 Name: GhostExtender Complete
-
+Depiction: https://codego002.github.io/depictions/com.sgwc.ghostextender/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.sgwc.ghostextender/depiction.json
