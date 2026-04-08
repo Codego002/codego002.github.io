@@ -14,9 +14,14 @@
           "useBoldFont": true
         },
         {
-          "class": "DepictionMarkdownTextView",
-          "markdown": "Application autonome pour generer et gerer des comptes email temporaires.\n\n**Fonctionnalites :**\n- Generation de comptes tempemail.cc et mail.tm\n- Gestion multi-comptes\n- Lecture des messages entrants\n- Export/import de comptes\n\nNecessite iOS 14.0 minimum.",
-          "tintColor": "#007aff"
+          "class": "DepictionLabelView",
+          "text": "Application pour generer et gerer des comptes email temporaires.",
+          "textColor": "#ffffff"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Supports: tempemail.cc et mail.tm",
+          "textColor": "#aaaaaa"
         },
         {
           "class": "DepictionSeparatorView"
@@ -32,7 +37,8 @@
       "class": "DepictionStackView",
       "views": [
         {"class": "DepictionSubheaderView","title": "v0.1.7"},
-        {"class": "DepictionMarkdownTextView","markdown": "- Support tempemail.cc et mail.tm\n- Gestion multi-comptes\n- Interface onglets complete","tintColor": "#007aff"}
+        {"class": "DepictionLabelView","text": "- Support tempemail.cc et mail.tm","textColor": "#aaaaaa"},
+        {"class": "DepictionLabelView","text": "- Gestion multi-comptes","textColor": "#aaaaaa"}
       ]
     }
   ]

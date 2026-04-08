@@ -14,9 +14,14 @@
           "useBoldFont": true
         },
         {
-          "class": "DepictionMarkdownTextView",
-          "markdown": "Tweak pour **Ghost** qui genere automatiquement un nom de ville dans le champ de saisie lors de la creation d'un conteneur.\n\nUtilise la ville active dans **LocSim by Mika**.\n\nNecessite GhostExtender et LocSim installes.",
-          "tintColor": "#007aff"
+          "class": "DepictionLabelView",
+          "text": "Genere automatiquement un nom de ville dans le champ Create Container de Ghost.",
+          "textColor": "#ffffff"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Utilise la ville active dans LocSim by Mika.",
+          "textColor": "#aaaaaa"
         },
         {
           "class": "DepictionSeparatorView"
@@ -32,7 +37,8 @@
       "class": "DepictionStackView",
       "views": [
         {"class": "DepictionSubheaderView","title": "v0.0.1-33"},
-        {"class": "DepictionMarkdownTextView","markdown": "- Auto-fill ville depuis LocSim dans Create Container\n- Support ARM64e (A12+)","tintColor": "#007aff"}
+        {"class": "DepictionLabelView","text": "- Auto-fill ville depuis LocSim","textColor": "#aaaaaa"},
+        {"class": "DepictionLabelView","text": "- Support ARM64e (A12+)","textColor": "#aaaaaa"}
       ]
     }
   ]
