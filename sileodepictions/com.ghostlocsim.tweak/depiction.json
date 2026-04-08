@@ -1,6 +1,5 @@
 {
   "minVersion": "0.1",
-  "headerImage": "",
   "class": "DepictionTabView",
   "tabs": [
     {
@@ -10,13 +9,17 @@
         {
           "class": "DepictionSubheaderView",
           "title": "GhostLocSim",
-          "useBoldFont": true
+          "useBoldFont": true,
+          "useBottomMargin": false
         },
         {
-          "class": "DepictionMarkdownView",
-          "markdown": "Tweak pour **Ghost v1.5** qui integre **LocationSimulation (LocSim) by Mika**.\n\n**Fonctionnalites :**\n- Auto-remplit le nom du conteneur avec la ville active dans LocSim\n- Suppression de conteneur par appui long (double-tap pour confirmer)\n- Panel de presets (iPhone 16e, 17, 17 Pro, 17 Pro Max, Air)\n\n**Dependance requise :**\n- **LocationSimulation (LocSim) by Mika** doit etre installe et actif\n- Sans LocSim actif, le tweak fonctionne mais n'auto-remplit rien\n\nSupporte ARM64e (A12+, Dopamine/Procursus)."
+          "class": "DepictionMarkdownTextView",
+          "markdown": "Tweak pour **Ghost v1.5** qui génère automatiquement un nom de ville dans le champ de saisie lors de la création d'un conteneur.\n\nUtilise la ville active dans **LocationSimulation (LocSim) by Mika**.\n\nNécessite GhostExtender et LocSim installés.",
+          "useSpacing": true
         },
-        { "class": "DepictionSeparatorView" },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionTableTextView",
           "title": "Package ID",
@@ -25,12 +28,17 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "0.0.1-16 (v26)"
+          "text": "0.0.1-33"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Requires",
-          "text": "Ghost v1.5, LocSim by Mika, Crane, iOS 16+"
+          "text": "GhostExtender, LocSim by Mika, iOS 15+"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Maintainer",
+          "text": "CodeGo"
         }
       ]
     },
@@ -40,11 +48,11 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "v26"
+          "title": "v0.0.1-33"
         },
         {
-          "class": "DepictionMarkdownView",
-          "markdown": "- Clean container deletion (no more kill/restart)\n- Alert guard: auto-fill only in \"New Container\" modal\n- ARM64e PAC-safe"
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Auto-fill ville depuis LocSim dans le champ Create Container\n- Support ARM64e (A12+)"
         }
       ]
     }

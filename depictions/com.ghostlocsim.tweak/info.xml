@@ -16,19 +16,11 @@
         </dict>
         <dict>
           <key>class</key><string>DepictionMarkdownTextView</string>
-          <key>markdown</key><string>Tweak pour **Ghost v1.5** qui integre **LocationSimulation (LocSim) by Mika**.
+          <key>markdown</key><string>Tweak pour **Ghost v1.5** qui génère automatiquement un nom de ville dans le champ de saisie lors de la création d'un conteneur.
 
-**Fonctionnalites :**
-- Auto-remplit le nom du conteneur avec la ville active dans LocSim
-- Suppression de conteneur par appui long (double-tap pour confirmer)
-- Panel de presets (iPhone 16e, 17, 17 Pro, 17 Pro Max, Air)
+Utilise la ville active dans **LocationSimulation (LocSim) by Mika**.
 
-**Dependance requise :**
-- **LocationSimulation (LocSim) by Mika** doit etre installe et actif avec au moins une localisation en mode faking
-- Le tweak lit le plist LocSim pour recuperer la ville active
-- Sans LocSim actif, le tweak fonctionne mais n'auto-remplit rien
-
-Supporte ARM64e (A12+, Dopamine/Procursus).</string>
+Nécessite GhostExtender et LocSim installés.</string>
         </dict>
         <dict>
           <key>class</key><string>DepictionSeparatorView</string>
@@ -41,12 +33,12 @@ Supporte ARM64e (A12+, Dopamine/Procursus).</string>
         <dict>
           <key>class</key><string>DepictionTableTextView</string>
           <key>title</key><string>Version</string>
-          <key>text</key><string>0.0.1-16 (v26)</string>
+          <key>text</key><string>0.0.1-33</string>
         </dict>
         <dict>
           <key>class</key><string>DepictionTableTextView</string>
           <key>title</key><string>Requires</string>
-          <key>text</key><string>Ghost v1.5, LocationSimulation (LocSim) by Mika, Crane, iOS 16+</string>
+          <key>text</key><string>GhostExtender, LocSim by Mika, iOS 15+</string>
         </dict>
         <dict>
           <key>class</key><string>DepictionTableTextView</string>
@@ -61,13 +53,12 @@ Supporte ARM64e (A12+, Dopamine/Procursus).</string>
       <array>
         <dict>
           <key>class</key><string>DepictionSubheaderView</string>
-          <key>title</key><string>v26</string>
+          <key>title</key><string>v0.0.1-33</string>
         </dict>
         <dict>
           <key>class</key><string>DepictionMarkdownTextView</string>
-          <key>markdown</key><string>- Clean container deletion (no more kill/restart)
-- Alert guard: auto-fill only in "New Container" modal
-- ARM64e PAC-safe (no blocks, POSIX logging)</string>
+          <key>markdown</key><string>- Auto-fill ville depuis LocSim dans le champ Create Container
+- Support ARM64e (A12+)</string>
         </dict>
       </array>
     </dict>
