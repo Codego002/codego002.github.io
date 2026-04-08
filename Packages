@@ -4,7 +4,7 @@ Architecture: iphoneos-arm64
 Maintainer: CodeGo
 Author: CodeGo
 Installed-Size: 5800
-Depends: mobilesubstrate, com.sgwc.ghost
+Depends: mobilesubstrate
 Filename: debs/GhostExtender_Complete_v1.deb
 Size: 1740884
 MD5sum: 9cbfb09cbae9398f698a9e25ef1107eb
