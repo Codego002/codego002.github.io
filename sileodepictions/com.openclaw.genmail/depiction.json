@@ -27,7 +27,7 @@
           "class": "DepictionSeparatorView"
         },
         {"class": "DepictionTableTextView","title": "Package ID","text": "com.openclaw.genmail"},
-        {"class": "DepictionTableTextView","title": "Version","text": "0.1.7"},
+        {"class": "DepictionTableTextView","title": "Version","text": "0.1.7-22"},
         {"class": "DepictionTableTextView","title": "Requires","text": "iOS 14.0+"},
         {"class": "DepictionTableTextView","title": "Maintainer","text": "CodeGo"}
       ]
@@ -36,6 +36,12 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {"class": "DepictionSubheaderView","title": "v0.1.7-22"},
+        {"class": "DepictionLabelView","text": "- Fix sync compteur messages (\"0 msg\" dans Comptes)","textColor": "#aaaaaa"},
+        {"class": "DepictionLabelView","text": "- Nouvelle barre horizontale scrollable de comptes dans Inbox","textColor": "#aaaaaa"},
+        {"class": "DepictionLabelView","text": "- refreshAllMessageCounts : rafraichissement auto des compteurs","textColor": "#aaaaaa"},
+        {"class": "DepictionLabelView","text": "- Bouton \"Voir messages\" par compte dans le detail","textColor": "#aaaaaa"},
+        {"class": "DepictionSeparatorView"},
         {"class": "DepictionSubheaderView","title": "v0.1.7"},
         {"class": "DepictionLabelView","text": "- Support tempemail.cc et mail.tm","textColor": "#aaaaaa"},
         {"class": "DepictionLabelView","text": "- Gestion multi-comptes","textColor": "#aaaaaa"}
