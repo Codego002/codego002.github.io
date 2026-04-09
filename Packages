@@ -36,6 +36,24 @@ Icon: https://codego002.github.io/debs/genmail-icon.png
 Depiction: https://codego002.github.io/depictions/com.openclaw.genmail/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.openclaw.genmail/depiction.json
 
+Package: com.iprotator.tweak
+Version: 0.0.1-44+debug
+Architecture: iphoneos-arm64
+Maintainer: CodeGo
+Author: TWEAKER
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/com.iprotator.tweak_0.0.1-44+debug_iphoneos-arm64.deb
+Size: 25896
+MD5sum: dd196789864efde61580e2fe73493092
+SHA1: d049d6ec65cfcd390a7777abbcf33c4479039d6c
+SHA256: 56cbd28962cf67b37a4eb615d49e181896c88e05a8e4696ffa098a6de4f69dfe
+Section: Tweaks
+Description: Rotate proxy IP from Shadowrocket via MyProxies API
+Name: IPRotator
+Depiction: https://codego002.github.io/depictions/com.iprotator.tweak/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.iprotator.tweak/depiction.json
+
 Package: com.sgwc.ghostextender
 Version: 2.1.0
 Architecture: iphoneos-arm64

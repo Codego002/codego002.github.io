@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Class</key>
+  <string>DepictionTabView</string>
+  <key>Tabs</key>
+  <array>
+    <dict>
+      <key>TabName</key>
+      <string>Details</string>
+      <key>Class</key>
+      <string>DepictionStackView</string>
+      <key>Views</key>
+      <array>
+        <dict>
+          <key>Class</key>
+          <string>DepictionSectionHeaderView</string>
+          <key>Title</key>
+          <string>IPRotator</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionMarkdownTextView</string>
+          <key>Markdown</key>
+          <string>Rotate proxy IP from Shadowrocket via MyProxies API.
+
+- Smart Rotation: disconnects VPN, rotates IP, reconnects automatically
+- Shows exit IP in green on each proxy (except Timeout)
+- Auto-refresh after rotation and on app launch
+- Configurable rotation URL (long press nav bar)
+- Multi-provider support (MyProxies API)</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionSeparatorView</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionTableTextView</string>
+          <key>Title</key>
+          <string>Version</string>
+          <key>Text</key>
+          <string>0.0.1-44</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionTableTextView</string>
+          <key>Title</key>
+          <string>Architecture</string>
+          <key>Text</key>
+          <string>iphoneos-arm64</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionTableTextView</string>
+          <key>Title</key>
+          <string>Section</string>
+          <key>Text</key>
+          <string>Tweaks</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionTableTextView</string>
+          <key>Title</key>
+          <string>Author</string>
+          <key>Text</key>
+          <string>TWEAKER</string>
+        </dict>
+      </array>
+    </dict>
+    <dict>
+      <key>TabName</key>
+      <string>Changelog</string>
+      <key>Class</key>
+      <string>DepictionStackView</string>
+      <key>Views</key>
+      <array>
+        <dict>
+          <key>Class</key>
+          <string>DepictionSectionHeaderView</string>
+          <key>Title</key>
+          <string>0.0.1-44</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionMarkdownTextView</string>
+          <key>Markdown</key>
+          <string>- Initial release
+- Rotate IP button in Shadowrocket nav bar
+- Smart Rotation (auto VPN disconnect/reconnect)
+- Exit IP display per proxy
+- Auto-refresh on rotation and launch
+- Configurable rotation URL</string>
+        </dict>
+      </array>
+    </dict>
+  </array>
+</dict>
+</plist>

@@ -1,0 +1,60 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#007aff",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Description",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**IPRotator** ajoute un bouton *Rotate IP* dans la barre de navigation de Shadowrocket.\n\n- **Smart Rotation** : déconnecte le VPN → rotate → reconnecte automatiquement\n- Affichage de l'IP exit en vert sur chaque proxy (sauf Timeout)\n- Auto-refresh de l'IP après rotation et à chaque ouverture de l'app\n- URL de rotation configurable (long press sur la barre de nav)\n- Support multi-provider (MyProxies API)"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "0.0.1-44"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibilité",
+          "text": "iOS 14.0+"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Architecture",
+          "text": "arm64"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Auteur",
+          "text": "TWEAKER"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.0.1-44",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial release\n- Bouton Rotate IP dans la nav bar de Shadowrocket\n- Smart Rotation (déconnexion + reconnexion automatique du VPN)\n- Affichage de l'IP exit sur chaque proxy\n- Auto-refresh après rotation et au lancement\n- URL de rotation configurable (long press)"
+        }
+      ]
+    }
+  ]
+}
