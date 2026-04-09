@@ -1,6 +1,7 @@
 {
   "minVersion": "0.4",
   "class": "DepictionTabView",
+  "headerImage": "https://codego002.github.io/debs/iprotator-icon.png",
   "tintColor": "#007aff",
   "tabs": [
     {
