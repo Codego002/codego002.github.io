@@ -23,7 +23,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "0.0.1-44"
+          "text": "0.0.1-57"
         },
         {
           "class": "DepictionTableTextView",
@@ -46,6 +46,18 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.0.1-57",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Option B : IP de sortie affichée uniquement sur le proxy actif (connecté au VPN)\n- Fix bug `_activeServerHP` nil : détection correcte du serveur actif via le label du toggle VPN\n- Refresh `_activeServerHP` après reconnexion post-rotation\n- Code debug entièrement retiré"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "0.0.1-44",
