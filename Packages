@@ -51,6 +51,7 @@ SHA256: 56cbd28962cf67b37a4eb615d49e181896c88e05a8e4696ffa098a6de4f69dfe
 Section: Tweaks
 Description: Rotate proxy IP from Shadowrocket via MyProxies API
 Name: IPRotator
+Icon: https://codego002.github.io/debs/iprotator-icon.png
 Depiction: https://codego002.github.io/depictions/com.iprotator.tweak/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.iprotator.tweak/depiction.json
 
