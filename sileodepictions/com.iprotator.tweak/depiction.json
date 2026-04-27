@@ -15,7 +15,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**IPRotator** ajoute un bouton *Rotate IP* dans la barre de navigation de Shadowrocket.\n\n- **Smart Rotation** : déconnecte le VPN → rotate → reconnecte automatiquement\n- Affichage de l'IP exit en vert sur chaque proxy (sauf Timeout)\n- Auto-refresh de l'IP après rotation et à chaque ouverture de l'app\n- URL de rotation configurable (long press sur la barre de nav)\n- Support multi-provider (MyProxies API)"
+          "markdown": "**IPRotator** ajoute un bouton *Rotate IP* dans la barre de navigation de Shadowrocket.\n\n- **Multi-link** : gère une liste de liens de rotation (Nom + URL + favori)\n- **Long-press** sur Rotate IP : ouvre la liste pour ajouter/éditer/supprimer\n- **Tap court** sur Rotate IP : rotation avec le lien favori\n- **Smart Rotation** : déconnecte le VPN → rotate → reconnecte automatiquement\n- Affichage de l'IP exit en vert sur chaque proxy (sauf Timeout)\n- Auto-refresh de l'IP après rotation et à chaque ouverture de l'app\n- Stockage JSON dans le sandbox app (éditable via SSH/Filza)"
         },
         {
           "class": "DepictionSeparatorView"
@@ -23,7 +23,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "0.0.1-57"
+          "text": "0.0.2-1"
         },
         {
           "class": "DepictionTableTextView",
@@ -46,6 +46,18 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.0.2-1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Multi-link support** : gestion d'une liste de liens de rotation (Nom + URL + favori)\n- **Long-press** sur le bouton Rotate IP ouvre un modal avec la liste (add/edit/delete par swipe)\n- **Tap row** : marque le lien comme favori par défaut\n- **Validation inline** : labels rouges sous les champs (pas de popups)\n- **Migration automatique** de l'ancienne URL NSUserDefaults vers JSON\n- **Toast** quand la liste est vide ('Add a rotate link first')"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "0.0.1-57",

@@ -25,11 +25,13 @@
           <key>Markdown</key>
           <string>Rotate proxy IP from Shadowrocket via MyProxies API.
 
+- **Multi-link support**: manage a list of rotate URLs with names and a default favorite
+- Long-press the Rotate IP button to open the list (add/edit/delete with swipe)
+- Tap a row to set it as default; tap Rotate IP for one-tap rotation
 - Smart Rotation: disconnects VPN, rotates IP, reconnects automatically
 - Shows exit IP in green on each proxy (except Timeout)
 - Auto-refresh after rotation and on app launch
-- Configurable rotation URL (long press nav bar)
-- Multi-provider support (MyProxies API)</string>
+- JSON storage in app sandbox (editable via SSH/Filza)</string>
         </dict>
         <dict>
           <key>Class</key>
@@ -41,7 +43,7 @@
           <key>Title</key>
           <string>Version</string>
           <key>Text</key>
-          <string>0.0.1-44</string>
+          <string>0.0.2-1</string>
         </dict>
         <dict>
           <key>Class</key>
@@ -76,6 +78,45 @@
       <string>DepictionStackView</string>
       <key>Views</key>
       <array>
+        <dict>
+          <key>Class</key>
+          <string>DepictionSectionHeaderView</string>
+          <key>Title</key>
+          <string>0.0.2-1</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionMarkdownTextView</string>
+          <key>Markdown</key>
+          <string>- **Multi-link support**: manage a list of rotate URLs (Name + URL + default favorite)
+- Long-press Rotate IP button opens a modal list with add/edit/delete (swipe)
+- Tap a row to set it as default for the next short-tap rotation
+- Inline form validation (no popups) for Name and URL
+- Storage migrated from NSUserDefaults to JSON in app Documents folder
+- Toast notification when list is empty</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionSeparatorView</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionSectionHeaderView</string>
+          <key>Title</key>
+          <string>0.0.1-57</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionMarkdownTextView</string>
+          <key>Markdown</key>
+          <string>- IP de sortie affichee uniquement sur le proxy actif
+- Fix bug _activeServerHP nil
+- Refresh apres reconnexion post-rotation</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionSeparatorView</string>
+        </dict>
         <dict>
           <key>Class</key>
           <string>DepictionSectionHeaderView</string>

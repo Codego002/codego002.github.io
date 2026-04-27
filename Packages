@@ -37,19 +37,19 @@ Depiction: https://codego002.github.io/depictions/com.openclaw.genmail/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.openclaw.genmail/depiction.json
 
 Package: com.iprotator.tweak
-Version: 0.0.1-57+debug
+Version: 0.0.2-1-1+debug
 Architecture: iphoneos-arm64
 Maintainer: CodeGo
 Author: TWEAKER
-Installed-Size: 236
+Installed-Size: 332
 Depends: mobilesubstrate
-Filename: debs/com.iprotator.tweak_0.0.1-57+debug_iphoneos-arm64.deb
-Size: 27366
-MD5sum: f034db5893d77a1e07341c55d01ca779
-SHA1: 03694bc50f89d9ffec17aaca65e292ce2fa83536
-SHA256: 78954969592e1462d273e2b5aafe1cf59daf562b9d4f5deb4b73eaf808fa9afe
+Filename: debs/com.iprotator.tweak_0.0.2-1-1+debug_iphoneos-arm64.deb
+Size: 53316
+MD5sum: d0907484f15492147291be49ced38762
+SHA1: 18cfef9a799e0469078f70ccf6243bfaf4c4f98c
+SHA256: 8a5610895010db06e357e1228154ca621b80047f3ee69ad34234bd8f49f80b2d
 Section: Tweaks
-Description: Rotate proxy IP from Shadowrocket via MyProxies API
+Description: Rotate proxy IP from Shadowrocket via MyProxies API (multi-link support)
 Name: IPRotator
 Icon: https://codego002.github.io/debs/iprotator-icon.png
 Depiction: https://codego002.github.io/depictions/com.iprotator.tweak/info.xml
