@@ -17,17 +17,17 @@ Depiction: https://codego002.github.io/depictions/com.ghostlocsim.tweak/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.ghostlocsim.tweak/depiction.json
 
 Package: com.openclaw.genmail
-Version: 0.1.7-22+debug
+Version: 0.2.2
 Architecture: iphoneos-arm64
 Maintainer: CodeGo
 Author: CodeGo
-Installed-Size: 736
+Installed-Size: 792
 Depends: firmware (>= 14.0)
-Filename: debs/com.openclaw.genmail_0.1.7-22+debug_iphoneos-arm64.deb
-Size: 248496
-MD5sum: 752cde4d26edf6378657760defd70fc7
-SHA1: 44cd10bcaf60fede5dfa93c16677438d2ce16116
-SHA256: b1240c154f7d05fa7f5a78da53491659a9ced231fa482050f0736ca75491b6bb
+Filename: debs/com.openclaw.genmail_0.2.2_iphoneos-arm64.deb
+Size: 273868
+MD5sum: 87c4a7d16f15499b54cf9e49700e0503
+SHA1: 6a0bc53329c835fc210b4d0d0a05a80ee53e4f20
+SHA256: e39d794ff095249ee2dfde5ae405c12c05340f029adbd3373c99216ae57ee318
 Section: Applications
 Priority: optional
 Description: Application autonome pour generer et gerer des comptes email temporaires (tempemail.cc et mail.tm)
