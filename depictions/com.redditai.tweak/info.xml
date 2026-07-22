@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>minVersion</key><string>0</string>
+  <key>tabs</key>
+  <array>
+    <dict>
+      <key>tabname</key><string>Details</string>
+      <key>views</key>
+      <array>
+        <dict>
+          <key>class</key><string>DepictionSubheaderView</string>
+          <key>title</key><string>RedditAI</string>
+          <key>useBoldFont</key><true/>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionMarkdownTextView</string>
+          <key>markdown</key><string>Génère commentaires, réponses et idées de posts **directement dans l'app Reddit**, adaptés au ton du thread ouvert. Outils Reverso intégrés : traduction, reformulation, correction.
+
+**Le tweak ne poste jamais rien tout seul.** Il génère et insère dans le composer — la relecture et l'envoi restent manuels.
+
+Une barre flottante déplaçable apparaît dans l'app : ✨ génère, 🇫🇷 traduit, 🔄 reformule, ✓ corrige, ⚙️ ouvre les réglages et l'éditeur de prompts. Un bouton s'ajoute aussi à côté de *Répondre* sur chaque commentaire.
+
+Une clé API Groq est nécessaire (gratuite sur console.groq.com), à saisir dans ⚙️ à la première ouverture.</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionSeparatorView</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Package ID</string>
+          <key>text</key><string>com.redditai.tweak</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Version</string>
+          <key>text</key><string>1.1.0</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Cible</string>
+          <key>text</key><string>Reddit iOS (com.reddit.Reddit)</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Requires</string>
+          <key>text</key><string>iOS 16.0+, rootless</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Maintainer</string>
+          <key>text</key><string>CodeGo</string>
+        </dict>
+      </array>
+    </dict>
+    <dict>
+      <key>tabname</key><string>Changelog</string>
+      <key>views</key>
+      <array>
+        <dict>
+          <key>class</key><string>DepictionSubheaderView</string>
+          <key>title</key><string>v1.1.0</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionMarkdownTextView</string>
+          <key>markdown</key><string>- Le texte généré, les traductions et les champs de saisie suivent la taille de texte réglée dans iOS
+- Correction : le plafond de captures arrêtait la collecte de contexte après un long usage</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionSubheaderView</string>
+          <key>title</key><string>v1.0.0</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionMarkdownTextView</string>
+          <key>markdown</key><string>- Génération de commentaires, réponses et posts
+- Outils Reverso : traduction, reformulation, correction
+- Barre flottante déplaçable, bouton de réponse par commentaire
+- Éditeur de prompts et gestion multi-clés dans les réglages</string>
+        </dict>
+      </array>
+    </dict>
+  </array>
+</dict>
+</plist>

@@ -1,0 +1,80 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#ff4500",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "RedditAI",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Génère commentaires, réponses et idées de posts **directement dans l'app Reddit**, adaptés au ton du thread ouvert. Outils Reverso intégrés : traduction, reformulation, correction.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Le tweak ne poste jamais rien tout seul.** Il génère et insère dans le composer — la relecture et l'envoi restent manuels.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Fonctionnement"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Une barre flottante déplaçable apparaît dans l'app :\n\n- **✨** génère un commentaire, une réponse ou un post\n- **🇫🇷** traduit\n- **🔄** reformule\n- **✓** corrige l'orthographe\n- **⚙️** réglages et éditeur de prompts\n\nUn bouton s'ajoute aussi à côté de *Répondre* sur chaque commentaire pour générer une réponse ciblée.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Avant d'installer"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Une **clé API Groq** est nécessaire (gratuite sur console.groq.com). Elle se saisit dans ⚙️ à la première ouverture. Plusieurs clés peuvent être enregistrées et permutées.\n\nLa configuration vit dans `/var/jb/var/mobile/RedditAI/config.json` et reste donc partagée entre les conteneurs Crane.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {"class": "DepictionTableTextView", "title": "Package ID", "text": "com.redditai.tweak"},
+        {"class": "DepictionTableTextView", "title": "Version", "text": "1.1.0"},
+        {"class": "DepictionTableTextView", "title": "Cible", "text": "Reddit iOS (com.reddit.Reddit)"},
+        {"class": "DepictionTableTextView", "title": "Requires", "text": "iOS 16.0+, rootless"},
+        {"class": "DepictionTableTextView", "title": "Maintainer", "text": "CodeGo"},
+        {"class": "DepictionSpacerView", "spacing": 16}
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {"class": "DepictionSubheaderView", "title": "v1.1.0", "useBoldText": true},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Le texte généré, les traductions et les champs de saisie suivent la taille de texte réglée dans iOS\n- Correction : le plafond de captures arrêtait la collecte de contexte après un long usage",
+          "useSpacing": true
+        },
+        {"class": "DepictionSeparatorView"},
+        {"class": "DepictionSubheaderView", "title": "v1.0.0", "useBoldText": true},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Génération de commentaires, réponses et posts\n- Outils Reverso : traduction, reformulation, correction\n- Barre flottante déplaçable, bouton de réponse par commentaire\n- Éditeur de prompts et gestion multi-clés dans ⚙️",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

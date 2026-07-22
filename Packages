@@ -55,6 +55,24 @@ Icon: https://codego002.github.io/debs/iprotator-icon.png
 Depiction: https://codego002.github.io/depictions/com.iprotator.tweak/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.iprotator.tweak/depiction.json
 
+Package: com.redditai.tweak
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: CodeGo
+Author: CodeGo
+Installed-Size: 500
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.redditai.tweak_1.1.0_iphoneos-arm64.deb
+Size: 98056
+MD5sum: 8906cf438067251f20771710a216312e
+SHA1: 10522bbd93531d41fc6a696c0a664ef63cd6d89a
+SHA256: 4a5e842b699f54adbb4da8e017be84a2a5866f76fcc9e94929ccd49161b3972a
+Section: Tweaks
+Description: Generation de commentaires, reponses et posts Reddit assistee par IA (Groq), avec outils Reverso integres dans l'app Reddit
+Name: RedditAI
+Depiction: https://codego002.github.io/depictions/com.redditai.tweak/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.redditai.tweak/depiction.json
+
 Package: com.sgwc.ghostextender
 Version: 2.1.0
 Architecture: iphoneos-arm64
