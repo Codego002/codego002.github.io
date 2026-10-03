@@ -1,0 +1,48 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#56A2E8",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "MapLocGhost",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Affiche les lieux CloudNote sur la carte de LocSim.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Le pin du volet simule la ville affichée et montre la date de la note. Le bouton + crée le conteneur Fruitz du lieu où tu es.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {"class": "DepictionTableTextView","title": "Package ID","text": "com.codego.maplocghost"},
+        {"class": "DepictionTableTextView","title": "Version","text": "0.0.19"},
+        {"class": "DepictionTableTextView","title": "Requires","text": "LocSim by Mika, Crane, iOS 15+"},
+        {"class": "DepictionTableTextView","title": "Maintainer","text": "CodeGo"},
+        {"class": "DepictionSpacerView","spacing": 16}
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {"class": "DepictionSubheaderView","title": "v0.0.19","useBoldText": true},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Pins CloudNote sur la carte LocSim, avec la couleur de la catégorie\n- Le pin du volet simule cette ville et affiche la date\n- Le + crée le conteneur Fruitz au nom du lieu actif",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

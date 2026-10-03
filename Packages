@@ -13,6 +13,7 @@ SHA256: 3b6762cd1a3a680abc2bb42ee13789737cad29dc1dd9ff37ba6cddef277b5b5e
 Section: Tweaks
 Description: Companion de GhostExtender - Pre-remplit le champ ville dans Ghost avec la ville LocSim active
 Name: GhostLocSim
+Icon: https://codego002.github.io/debs/ghostlocsim-icon.png
 Depiction: https://codego002.github.io/depictions/com.ghostlocsim.tweak/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.ghostlocsim.tweak/depiction.json
 
@@ -88,5 +89,25 @@ SHA256: 72ebabf890e6fb86362e10259d7babccd703865e53b5a9cbe4dd33f9c5f20ce2
 Section: Tweaks
 Description: Etend Ghost v1.5 avec les derniers modeles iPhone (16e, 17, 17 Pro, 17 Pro Max, Air) et iOS (18.2-26.4). Inclut images et presets.
 Name: GhostExtender Complete
+Icon: https://codego002.github.io/debs/ghostextender-icon.png
 Depiction: https://codego002.github.io/depictions/com.sgwc.ghostextender/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.sgwc.ghostextender/depiction.json
+
+Package: com.codego.maplocghost
+Version: 0.0.19-1+debug
+Architecture: iphoneos-arm64
+Maintainer: CodeGo
+Author: CodeGo
+Installed-Size: 596
+Depends: mobilesubstrate
+Filename: debs/com.codego.maplocghost_0.0.19-1+debug_iphoneos-arm64.deb
+Size: 82950
+MD5sum: 55fd98066d2a39f0b439890ebf7cc48c
+SHA1: dd6a849ce82827d6b80b69438c3a667f2b313278
+SHA256: aac4c47f7b513cefcb0a0a5c8dbb482f5d45aa41aab41c5dca22d22c44a0a89a
+Section: Tweaks
+Description: Pins CloudNote sur la carte LocSim. Le pin du volet simule cette ville et affiche la date. Le + cree le conteneur Fruitz du lieu actif.
+Name: MapLocGhost
+Icon: https://codego002.github.io/debs/maplocghost-icon.png
+Depiction: https://codego002.github.io/depictions/com.codego.maplocghost/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.maplocghost/depiction.json
