@@ -71,6 +71,26 @@ SHA256: 4a5e842b699f54adbb4da8e017be84a2a5866f76fcc9e94929ccd49161b3972a
 Section: Tweaks
 Description: Generation de commentaires, reponses et posts Reddit assistee par IA (Groq), avec outils Reverso integres dans l'app Reddit
 Name: RedditAI
+Icon: https://codego002.github.io/debs/redditai-icon.png
+Depiction: https://codego002.github.io/depictions/com.redditai.tweak/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.redditai.tweak/depiction.json
+
+Package: com.redditai.tweak
+Version: 1.5.1
+Architecture: iphoneos-arm64
+Maintainer: CodeGo
+Author: CodeGo
+Installed-Size: 1100
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.redditai.tweak_1.5.1_iphoneos-arm64.deb
+Size: 286092
+MD5sum: 9cc756f3a2902c42263bd38cf58eb4e9
+SHA1: b5e7236032c4abe6c5779a7833aa90191f453c4b
+SHA256: 28e80f06da5132c633c94dc8b11982a4b81ce45ac30d72f8e4dd47deb650cf6f
+Section: Tweaks
+Description: Generation de commentaires, reponses et posts Reddit assistee par IA, planner de subs, outils Reverso
+Name: RedditAI
+Icon: https://codego002.github.io/debs/redditai-icon.png
 Depiction: https://codego002.github.io/depictions/com.redditai.tweak/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.redditai.tweak/depiction.json
 

@@ -35,7 +35,7 @@ Une clé API Groq est nécessaire (gratuite sur console.groq.com), à saisir dan
         <dict>
           <key>class</key><string>DepictionTableTextView</string>
           <key>title</key><string>Version</string>
-          <key>text</key><string>1.1.0</string>
+          <key>text</key><string>1.5.1</string>
         </dict>
         <dict>
           <key>class</key><string>DepictionTableTextView</string>
@@ -58,6 +58,15 @@ Une clé API Groq est nécessaire (gratuite sur console.groq.com), à saisir dan
       <key>tabname</key><string>Changelog</string>
       <key>views</key>
       <array>
+        <dict>
+          <key>class</key><string>DepictionSubheaderView</string>
+          <key>title</key><string>v1.5.1</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionMarkdownTextView</string>
+          <key>markdown</key><string>- Planner de subs : plan du jour, scan du compte, lien vers le Sheet
+- Le bouton flottant devient une bulle avec icône</string>
+        </dict>
         <dict>
           <key>class</key><string>DepictionSubheaderView</string>
           <key>title</key><string>v1.1.0</string>
