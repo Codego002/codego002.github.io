@@ -1,0 +1,37 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#F43F8A",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {"class": "DepictionSubheaderView", "title": "FruitzAuto", "useBoldText": true},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Bouton flottant dans Fruitz. La date se remplit. Quand tu confirmes, l'intercepteur envoie le prénom, le genre et le fruit. Les détails et les GIFs partent depuis le panneau.",
+          "useSpacing": true
+        },
+        {"class": "DepictionSeparatorView"},
+        {"class": "DepictionTableTextView", "title": "Package ID", "text": "com.fruitzauto.tweak"},
+        {"class": "DepictionTableTextView", "title": "Version", "text": "0.0.6"},
+        {"class": "DepictionTableTextView", "title": "Requires", "text": "iOS 15+"},
+        {"class": "DepictionTableTextView", "title": "Maintainer", "text": "CodeGo"},
+        {"class": "DepictionSpacerView", "spacing": 16}
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {"class": "DepictionSubheaderView", "title": "v0.0.6", "useBoldText": true},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Icône seule, sans cercle flou\n- Prénoms lus depuis la feuille\n- Auto tap retiré",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

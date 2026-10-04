@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>minVersion</key><string>0</string>
+  <key>tabs</key>
+  <array>
+    <dict>
+      <key>tabname</key><string>Details</string>
+      <key>views</key>
+      <array>
+        <dict>
+          <key>class</key><string>DepictionSubheaderView</string>
+          <key>title</key><string>FruitzAuto</string>
+          <key>useBoldFont</key><true/>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionMarkdownTextView</string>
+          <key>markdown</key><string>Bouton flottant dans Fruitz. La date se remplit. Quand tu confirmes, l'intercepteur envoie le prénom, le genre et le fruit. Les détails et les GIFs partent depuis le panneau.</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionSeparatorView</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Package ID</string>
+          <key>text</key><string>com.fruitzauto.tweak</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Version</string>
+          <key>text</key><string>0.0.6</string>
+        </dict>
+      </array>
+    </dict>
+  </array>
+</dict>
+</plist>
