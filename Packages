@@ -133,19 +133,19 @@ Depiction: https://codego002.github.io/depictions/com.codego.maplocghost/info.xm
 SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.maplocghost/depiction.json
 
 Package: com.fruitzauto.tweak
-Version: 0.0.6-1+debug
+Version: 0.0.7-1+debug
 Architecture: iphoneos-arm64
 Maintainer: CodeGo
 Author: CodeGo
-Installed-Size: 264
+Installed-Size: 292
 Depends: mobilesubstrate
-Filename: debs/com.fruitzauto.tweak_0.0.6-1+debug_iphoneos-arm64.deb
-Size: 62946
-MD5sum: 14e4e5bc7b338da0384e2416d281fcba
-SHA1: b798c6b52db13b7cada798122e61d834dc1b1c9b
-SHA256: 001eab6938ab2dd7719cd2298c9584a483b613f0582aec872f6ebae2ded32e68
+Filename: debs/com.fruitzauto.tweak_0.0.7-1+debug_iphoneos-arm64.deb
+Size: 79080
+MD5sum: 308372293fc31f8b6472eb1de8285eaa
+SHA1: 56f0e2b2bd8d99d8bbcc821cbb3c523359cbdbcc
+SHA256: e50791e2cebc5a5fc28f4b72794b271777cdd672169ceba93dcc464192ba218b
 Section: Tweaks
-Description: Bouton flottant Fruitz. La date se remplit, l'intercepteur envoie le profil, les détails et les GIFs partent depuis le panneau.
+Description: Bouton flottant Fruitz. L'icône et l'adresse de la feuille sont dans le paquet. La date se remplit, les détails et les GIFs partent depuis le panneau.
 Name: FruitzAuto
 Icon: https://codego002.github.io/debs/fruitzauto-icon.png
 Depiction: https://codego002.github.io/depictions/com.fruitzauto.tweak/info.xml

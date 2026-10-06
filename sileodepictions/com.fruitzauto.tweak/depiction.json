@@ -15,7 +15,7 @@
         },
         {"class": "DepictionSeparatorView"},
         {"class": "DepictionTableTextView", "title": "Package ID", "text": "com.fruitzauto.tweak"},
-        {"class": "DepictionTableTextView", "title": "Version", "text": "0.0.6"},
+        {"class": "DepictionTableTextView", "title": "Version", "text": "0.0.7"},
         {"class": "DepictionTableTextView", "title": "Requires", "text": "iOS 15+"},
         {"class": "DepictionTableTextView", "title": "Maintainer", "text": "CodeGo"},
         {"class": "DepictionSpacerView", "spacing": 16}
@@ -25,6 +25,12 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {"class": "DepictionSubheaderView", "title": "v0.0.7", "useBoldText": true},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- L'icône du bouton est dans le paquet\n- L'adresse de la feuille est dans le paquet\n- Les prénoms se téléchargent tout seuls",
+          "useSpacing": true
+        },
         {"class": "DepictionSubheaderView", "title": "v0.0.6", "useBoldText": true},
         {
           "class": "DepictionMarkdownView",

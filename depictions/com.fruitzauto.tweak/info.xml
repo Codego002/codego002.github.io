@@ -29,7 +29,7 @@
         <dict>
           <key>class</key><string>DepictionTableTextView</string>
           <key>title</key><string>Version</string>
-          <key>text</key><string>0.0.6</string>
+          <key>text</key><string>0.0.7</string>
         </dict>
       </array>
     </dict>
