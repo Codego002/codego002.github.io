@@ -132,6 +132,25 @@ Icon: https://codego002.github.io/debs/maplocghost-icon.png
 Depiction: https://codego002.github.io/depictions/com.codego.maplocghost/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.maplocghost/depiction.json
 
+Package: com.codego.maplocghost
+Version: 0.0.30
+Architecture: iphoneos-arm64
+Maintainer: CodeGo
+Author: CodeGo
+Installed-Size: 776
+Depends: mobilesubstrate
+Filename: debs/com.codego.maplocghost_0.0.30_iphoneos-arm64.deb
+Size: 86560
+MD5sum: f806bc10495e6f5781dc9cdcb7104cf8
+SHA1: 72c196c502eec1c2761bc097e32c501f25c572da
+SHA256: a3a2e66843725c0cdefed35a5191a436b8ac28be88bdbd5ed9915e34ac205b58
+Section: Tweaks
+Description: Le + crée le conteneur du lieu et demande à Ghost une formule neuve. L'onglet Conteneurs et les pins CloudNote restent.
+Name: MapLocGhost
+Icon: https://codego002.github.io/debs/maplocghost-icon.png
+Depiction: https://codego002.github.io/depictions/com.codego.maplocghost/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.maplocghost/depiction.json
+
 Package: com.fruitzauto.tweak
 Version: 0.0.7-1+debug
 Architecture: iphoneos-arm64

@@ -18,7 +18,7 @@
           <key>class</key><string>DepictionMarkdownTextView</string>
           <key>markdown</key><string>Affiche les lieux CloudNote sur la carte de **LocSim**.
 
-Le pin du volet simule la ville affichée et montre la date de la note. Le bouton + crée le conteneur Fruitz du lieu où tu es.
+Le pin du volet simule la ville affichée et montre la date de la note. Le bouton + crée le conteneur du lieu et demande à Ghost une formule neuve.
 
 Nécessite LocSim by Mika et Crane.</string>
         </dict>
@@ -33,7 +33,7 @@ Nécessite LocSim by Mika et Crane.</string>
         <dict>
           <key>class</key><string>DepictionTableTextView</string>
           <key>title</key><string>Version</string>
-          <key>text</key><string>0.0.19</string>
+          <key>text</key><string>0.0.30</string>
         </dict>
         <dict>
           <key>class</key><string>DepictionTableTextView</string>
@@ -51,6 +51,15 @@ Nécessite LocSim by Mika et Crane.</string>
       <key>tabname</key><string>Changelog</string>
       <key>views</key>
       <array>
+        <dict>
+          <key>class</key><string>DepictionSubheaderView</string>
+          <key>title</key><string>v0.0.30</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionMarkdownTextView</string>
+          <key>markdown</key><string>- Le + demande à Ghost une formule neuve pour chaque conteneur
+- Ghost s'ouvre le temps de la formule s'il était fermé</string>
+        </dict>
         <dict>
           <key>class</key><string>DepictionSubheaderView</string>
           <key>title</key><string>v0.0.19</string>

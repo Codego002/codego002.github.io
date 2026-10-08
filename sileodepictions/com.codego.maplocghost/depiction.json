@@ -19,14 +19,14 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Le pin du volet simule la ville affichée et montre la date de la note. Le bouton + crée le conteneur Fruitz du lieu où tu es.",
+          "markdown": "Le pin du volet simule la ville affichée et montre la date de la note. Le bouton + crée le conteneur du lieu et demande à Ghost une formule neuve.",
           "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
         },
         {"class": "DepictionTableTextView","title": "Package ID","text": "com.codego.maplocghost"},
-        {"class": "DepictionTableTextView","title": "Version","text": "0.0.19"},
+        {"class": "DepictionTableTextView","title": "Version","text": "0.0.30"},
         {"class": "DepictionTableTextView","title": "Requires","text": "LocSim by Mika, Crane, iOS 15+"},
         {"class": "DepictionTableTextView","title": "Maintainer","text": "CodeGo"},
         {"class": "DepictionSpacerView","spacing": 16}
@@ -36,6 +36,12 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {"class": "DepictionSubheaderView","title": "v0.0.30","useBoldText": true},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Le + demande à Ghost une formule neuve pour chaque conteneur\n- Ghost s'ouvre le temps de la formule s'il était fermé",
+          "useSpacing": true
+        },
         {"class": "DepictionSubheaderView","title": "v0.0.19","useBoldText": true},
         {
           "class": "DepictionMarkdownView",
