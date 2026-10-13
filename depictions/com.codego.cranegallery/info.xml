@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>minVersion</key><string>0</string>
+  <key>tabs</key>
+  <array>
+    <dict>
+      <key>tabname</key><string>Details</string>
+      <key>views</key>
+      <array>
+        <dict>
+          <key>class</key><string>DepictionSubheaderView</string>
+          <key>title</key><string>CraneGallery</string>
+          <key>useBoldFont</key><true/>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionMarkdownTextView</string>
+          <key>markdown</key><string>Chaque conteneur Crane de Reddit a sa propre galerie. Les photos enregistrées depuis Reddit restent dans ce conteneur. Dans le post, la grille de gauche montre ces photos. Tu peux créer un dossier, y ranger des photos, en ajouter depuis la pellicule, et en retirer.</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionSeparatorView</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Package ID</string>
+          <key>text</key><string>com.codego.cranegallery</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Version</string>
+          <key>text</key><string>0.0.8</string>
+        </dict>
+      </array>
+    </dict>
+  </array>
+</dict>
+</plist>

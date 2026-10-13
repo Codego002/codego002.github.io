@@ -1,0 +1,37 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#2F4A52",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {"class": "DepictionSubheaderView", "title": "CraneGallery", "useBoldText": true},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Chaque conteneur Crane de Reddit a sa propre galerie. Les photos enregistrées depuis Reddit restent dans ce conteneur. Dans le post, la grille de gauche montre ces photos. Tu peux créer un dossier, y ranger des photos, en ajouter depuis la pellicule, et en retirer.",
+          "useSpacing": true
+        },
+        {"class": "DepictionSeparatorView"},
+        {"class": "DepictionTableTextView", "title": "Package ID", "text": "com.codego.cranegallery"},
+        {"class": "DepictionTableTextView", "title": "Version", "text": "0.0.8"},
+        {"class": "DepictionTableTextView", "title": "Requires", "text": "iOS 16+"},
+        {"class": "DepictionTableTextView", "title": "Maintainer", "text": "codego"},
+        {"class": "DepictionSpacerView", "spacing": 16}
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {"class": "DepictionSubheaderView", "title": "v0.0.8", "useBoldText": true},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Dossiers nommés dans le conteneur\n- Ajouter depuis la pellicule\n- Retirer une photo\n- La grille du post n'affiche que le dossier choisi",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,22 @@
+Package: com.codego.cranegallery
+Version: 0.0.8-1+debug
+Architecture: iphoneos-arm64
+Maintainer: codego
+Author: codego
+Installed-Size: 460
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.codego.cranegallery_0.0.8-1+debug_iphoneos-arm64.deb
+Size: 86706
+MD5sum: 8ff50a104a5163a13fe203bc339c7708
+SHA1: 30476ed5691566ecb2114269feaf6291b6fe78f1
+SHA256: 23c2f4ce44adf5eb732fa91c50719a8d3e1ce2729c25b112afc73d155ec2cb09
+Section: Tweaks
+Description: Galerie photo isolee par conteneur Crane. Seul Reddit est actif.
+Name: CraneGallery
+Icon: https://codego002.github.io/debs/cranegallery-icon.png
+Depiction: https://codego002.github.io/depictions/com.codego.cranegallery/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.cranegallery/depiction.json
+
 Package: com.ghostlocsim.tweak
 Version: 0.0.1-38+debug
 Architecture: iphoneos-arm64
