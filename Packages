@@ -1,3 +1,79 @@
+Package: com.codego.instalivecam
+Version: 0.2.2
+Architecture: iphoneos-arm64
+Maintainer: codego
+Author: codego
+Installed-Size: 982
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.codego.instalivecam_v0.2.2_iphoneos-arm64.deb
+Size: 816008
+MD5sum: 95cdc35221d496106aec47c80d6c4eaf
+SHA1: ab11dac8285f07e2af944698560c886a8a67b74d
+SHA256: 077a1b75baaa8a609c66592e577ae1f217feb34172b91b710b128711b4013306
+Section: Tweaks
+Description: Utilise une vidéo locale comme caméra Instagram.
+Name: InstaLiveCam
+Icon: https://codego002.github.io/debs/instalivecam-icon.png
+Depiction: https://codego002.github.io/depictions/com.codego.instalivecam/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.instalivecam/depiction.json
+
+Package: com.codego.tiktokfakelivecam
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: codego
+Author: codego
+Installed-Size: 738
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.codego.tiktokfakelivecam_v1.0.1_iphoneos-arm64.deb
+Size: 568636
+MD5sum: 3ac4631dcd82de53f13b8e0689b392e9
+SHA1: ef077ca04cee465bfba77c174aa423c8b988531e
+SHA256: 8d43e461bf643407199ed219420a9f60442903a62c3442c4f5ca1b1f7bc1d00a
+Section: Tweaks
+Description: Remplace la caméra TikTok par une vidéo locale.
+Name: TikTokFakeLiveCam
+Icon: https://codego002.github.io/debs/tiktokfakelivecam-icon.png
+Depiction: https://codego002.github.io/depictions/com.codego.tiktokfakelivecam/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.tiktokfakelivecam/depiction.json
+
+Package: com.codego.youtubelivecam
+Version: 0.4.3-2
+Architecture: iphoneos-arm64
+Maintainer: codego
+Author: codego
+Installed-Size: 264
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.codego.youtubelivecam_v0.4.3-2_iphoneos-arm64.deb
+Size: 47744
+MD5sum: 0eab6c4e502b4a0e3214a0309cffba7a
+SHA1: 67fd2b52815b8429082680e2e2a5a6b56778c44f
+SHA256: 7b23baf8f16911ad74fa3410305d49e5d1199652b7489ed6f112da4fdcdfec82
+Section: Tweaks
+Description: Utilise une vidéo locale comme caméra YouTube.
+Name: YouTubeLiveCam
+Icon: https://codego002.github.io/debs/youtubelivecam-icon.png
+Depiction: https://codego002.github.io/depictions/com.codego.youtubelivecam/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.youtubelivecam/depiction.json
+
+Package: com.codego.livecam
+Version: 0.3.4-3
+Architecture: iphoneos-arm64
+Maintainer: codego
+Author: codego
+Installed-Size: 786
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.codego.livecam_v0.3.4-3_iphoneos-arm64.deb
+Size: 551968
+MD5sum: db86bde2a945deeaa04e3483b3f9c297
+SHA1: 95a251753ac4c2cf3cbefa0f3710a51a13b58c97
+SHA256: 13cbabe6756471a29a7aafaadf13012f744398bfda180581319228f0323d6b9c
+Section: Tweaks
+Description: Utilise une vidéo locale comme caméra Facebook.
+Name: LiveCam for Facebook
+Icon: https://codego002.github.io/debs/livecam-icon.png
+Depiction: https://codego002.github.io/depictions/com.codego.livecam/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.livecam/depiction.json
+
 Package: com.codego.cranegallery
 Version: 0.0.8-1+debug
 Architecture: iphoneos-arm64

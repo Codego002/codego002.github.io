@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>minVersion</key><string>0</string>
+  <key>tabs</key>
+  <array>
+    <dict>
+      <key>tabname</key><string>Details</string>
+      <key>views</key>
+      <array>
+        <dict>
+          <key>class</key><string>DepictionSubheaderView</string>
+          <key>title</key><string>InstaLiveCam</string>
+          <key>useBoldFont</key><true/>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionMarkdownTextView</string>
+          <key>markdown</key><string>La caméra Instagram (story, post, reel) affiche la vidéo choisie dans l'app. L'interrupteur est actif. La vidéo reste sur l'iPhone.</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionSeparatorView</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Package ID</string>
+          <key>text</key><string>com.codego.instalivecam</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionTableTextView</string>
+          <key>title</key><string>Version</string>
+          <key>text</key><string>0.2.2</string>
+        </dict>
+      </array>
+    </dict>
+  </array>
+</dict>
+</plist>
