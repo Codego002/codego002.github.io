@@ -246,6 +246,25 @@ Icon: https://codego002.github.io/debs/maplocghost-icon.png
 Depiction: https://codego002.github.io/depictions/com.codego.maplocghost/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.maplocghost/depiction.json
 
+Package: com.codego.maplocghost
+Version: 0.0.31
+Architecture: iphoneos-arm64
+Maintainer: CodeGo
+Author: CodeGo
+Installed-Size: 812
+Depends: mobilesubstrate
+Filename: debs/com.codego.maplocghost_0.0.31_iphoneos-arm64.deb
+Size: 99966
+MD5sum: 51f29355a46515ef9b23c61e7c86796a
+SHA1: e46179280dc9ab41763eba36f963e36162f1a854
+SHA256: 12b9ffb1d48d6b900a4a9c6530014b8d8c41e9c6f2dd27884d89e84a1e42bbe9
+Section: Tweaks
+Description: Paramètre peut couper la formule Ghost. La liste importe, renomme et place un lieu.
+Name: MapLocGhost
+Icon: https://codego002.github.io/debs/maplocghost-icon.png
+Depiction: https://codego002.github.io/depictions/com.codego.maplocghost/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.maplocghost/depiction.json
+
 Package: com.fruitzauto.tweak
 Version: 0.0.7-1+debug
 Architecture: iphoneos-arm64
