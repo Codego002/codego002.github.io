@@ -28,7 +28,7 @@
 - **Multi-link support**: manage a list of rotate URLs with names and a default favorite
 - Long-press the Rotate IP button to open the list (add/edit/delete with swipe)
 - Tap a row to set it as default; tap Rotate IP for one-tap rotation
-- Smart Rotation: disconnects VPN, rotates IP, reconnects automatically
+- Rotation sans couper le VPN : le lien part hors du tunnel, en Wi-Fi puis en cellulaire
 - Shows exit IP in green on each proxy (except Timeout)
 - Auto-refresh after rotation and on app launch
 - JSON storage in app sandbox (editable via SSH/Filza)</string>
@@ -43,7 +43,7 @@
           <key>Title</key>
           <string>Version</string>
           <key>Text</key>
-          <string>0.0.2-1</string>
+          <string>0.0.3</string>
         </dict>
         <dict>
           <key>Class</key>
@@ -78,6 +78,24 @@
       <string>DepictionStackView</string>
       <key>Views</key>
       <array>
+        <dict>
+          <key>Class</key>
+          <string>DepictionSectionHeaderView</string>
+          <key>Title</key>
+          <string>0.0.3</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionMarkdownTextView</string>
+          <key>Markdown</key>
+          <string>- La rotation ne coupe plus le VPN
+- Le lien part hors du tunnel : Wi-Fi, puis cellulaire
+- Si l'appel échoue, une erreur s'affiche et le VPN reste connecté</string>
+        </dict>
+        <dict>
+          <key>Class</key>
+          <string>DepictionSeparatorView</string>
+        </dict>
         <dict>
           <key>Class</key>
           <string>DepictionSectionHeaderView</string>

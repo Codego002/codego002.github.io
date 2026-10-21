@@ -15,7 +15,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**IPRotator** ajoute un bouton *Rotate IP* dans la barre de navigation de Shadowrocket.\n\n- **Multi-link** : gère une liste de liens de rotation (Nom + URL + favori)\n- **Long-press** sur Rotate IP : ouvre la liste pour ajouter/éditer/supprimer\n- **Tap court** sur Rotate IP : rotation avec le lien favori\n- **Smart Rotation** : déconnecte le VPN → rotate → reconnecte automatiquement\n- Affichage de l'IP exit en vert sur chaque proxy (sauf Timeout)\n- Auto-refresh de l'IP après rotation et à chaque ouverture de l'app\n- Stockage JSON dans le sandbox app (éditable via SSH/Filza)"
+          "markdown": "**IPRotator** ajoute un bouton *Rotate IP* dans la barre de navigation de Shadowrocket.\n\n- **Multi-link** : gère une liste de liens de rotation (Nom + URL + favori)\n- **Long-press** sur Rotate IP : ouvre la liste pour ajouter/éditer/supprimer\n- **Tap court** sur Rotate IP : rotation avec le lien favori, sans couper le VPN\n- Le lien part hors du tunnel, en Wi-Fi puis en cellulaire\n- Affichage de l'IP exit en vert sur chaque proxy (sauf Timeout)\n- Auto-refresh de l'IP après rotation et à chaque ouverture de l'app\n- Stockage JSON dans le sandbox app (éditable via SSH/Filza)"
         },
         {
           "class": "DepictionSeparatorView"
@@ -23,7 +23,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "0.0.2-1"
+          "text": "0.0.3"
         },
         {
           "class": "DepictionTableTextView",
@@ -46,6 +46,18 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.0.3",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- La rotation ne coupe plus le VPN\n- Le lien part hors du tunnel : Wi-Fi, puis cellulaire\n- Si l'appel échoue, une erreur s'affiche et le VPN reste connecté"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "0.0.2-1",

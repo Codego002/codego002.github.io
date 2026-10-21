@@ -151,6 +151,25 @@ Icon: https://codego002.github.io/debs/iprotator-icon.png
 Depiction: https://codego002.github.io/depictions/com.iprotator.tweak/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.iprotator.tweak/depiction.json
 
+Package: com.iprotator.tweak
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: CodeGo
+Author: TWEAKER
+Installed-Size: 288
+Depends: mobilesubstrate
+Filename: debs/com.iprotator.tweak_0.0.3_iphoneos-arm64.deb
+Size: 37514
+MD5sum: 7b33572551e08ab601ed18e38d2651c7
+SHA1: a36b118d4f3b9c117014bfcde8114efabc27692e
+SHA256: 8010433e1653f7efb8a3552f1691de8c6c9d38b4dcd6b511027aa993f0e74660
+Section: Tweaks
+Description: Rotate the proxy IP without disconnecting the Shadowrocket VPN.
+Name: IPRotator
+Icon: https://codego002.github.io/debs/iprotator-icon.png
+Depiction: https://codego002.github.io/depictions/com.iprotator.tweak/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.iprotator.tweak/depiction.json
+
 Package: com.redditai.tweak
 Version: 1.1.0
 Architecture: iphoneos-arm64
