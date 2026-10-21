@@ -19,14 +19,14 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Le pin du volet simule la ville affichée et montre la date de la note. Le bouton + crée le conteneur du lieu et demande à Ghost une formule neuve. Paramètre peut couper cette formule. La liste importe, renomme et place un lieu.",
+          "markdown": "Le pin du volet simule la ville affichée et montre la date de la note. Le bouton + crée le conteneur du lieu et demande à Ghost une formule neuve. Paramètre peut couper cette formule. Chaque app peut exiger un pays : Start n'ouvre le conteneur que si l'IP de sortie correspond. La liste importe, renomme et place un lieu.",
           "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
         },
         {"class": "DepictionTableTextView","title": "Package ID","text": "com.codego.maplocghost"},
-        {"class": "DepictionTableTextView","title": "Version","text": "0.0.31"},
+        {"class": "DepictionTableTextView","title": "Version","text": "0.0.34"},
         {"class": "DepictionTableTextView","title": "Requires","text": "LocSim by Mika, Crane, iOS 15+"},
         {"class": "DepictionTableTextView","title": "Maintainer","text": "CodeGo"},
         {"class": "DepictionSpacerView","spacing": 16}
@@ -36,6 +36,12 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {"class": "DepictionSubheaderView","title": "v0.0.34","useBoldText": true},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Chaque app a son pays exigé\n- Start n'ouvre le conteneur que si l'IP de sortie est de ce pays\n- La ligne Pays reste visible dans Paramètre",
+          "useSpacing": true
+        },
         {"class": "DepictionSubheaderView","title": "v0.0.31","useBoldText": true},
         {
           "class": "DepictionMarkdownView",

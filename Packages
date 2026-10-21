@@ -265,6 +265,25 @@ Icon: https://codego002.github.io/debs/maplocghost-icon.png
 Depiction: https://codego002.github.io/depictions/com.codego.maplocghost/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.maplocghost/depiction.json
 
+Package: com.codego.maplocghost
+Version: 0.0.34
+Architecture: iphoneos-arm64
+Maintainer: CodeGo
+Author: CodeGo
+Installed-Size: 812
+Depends: mobilesubstrate
+Filename: debs/com.codego.maplocghost_0.0.34_iphoneos-arm64.deb
+Size: 105402
+MD5sum: a8e08af0820157503a004f8e568e2264
+SHA1: 45b1de1afcace6f597ff5a8fe3c5fe21180542e4
+SHA256: a027602998527f0c932b6da26fea1ac877d9d6185a500094d35b95e0abb9de0a
+Section: Tweaks
+Description: Chaque app a son pays. Start n'ouvre le conteneur que si l'IP correspond. Paramètre peut couper la formule Ghost.
+Name: MapLocGhost
+Icon: https://codego002.github.io/debs/maplocghost-icon.png
+Depiction: https://codego002.github.io/depictions/com.codego.maplocghost/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.maplocghost/depiction.json
+
 Package: com.fruitzauto.tweak
 Version: 0.0.7-1+debug
 Architecture: iphoneos-arm64
