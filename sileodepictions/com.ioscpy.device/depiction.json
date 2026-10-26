@@ -1,0 +1,66 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#2F4A52",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "ioscpy",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Miroir USB de l'iPhone, avec la souris et le clavier du PC. Le premier clic marche tout de suite. Respring après l'installation. Rootless (/var/jb), iOS 15 ou plus. Testé sur iPhone 8.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package ID",
+          "text": "com.ioscpy.device"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "0.1.6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Requires",
+          "text": "iOS 15+ rootless"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Maintainer",
+          "text": "Lautaro Villarreal Culic'"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v0.1.6",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Le premier appui dans la fenêtre PC marche sans touche préalable sur l'iPhone\n- Respring après l'installation",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

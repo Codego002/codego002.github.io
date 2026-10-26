@@ -1,3 +1,22 @@
+Package: com.ioscpy.device
+Version: 0.1.6
+Architecture: iphoneos-arm64
+Maintainer: Lautaro Villarreal Culic' <lautaro@lautarovculic.com>
+Author: Lautaro Villarreal Culic' <lautaro@lautarovculic.com>
+Installed-Size: 604
+Depends: ellekit | mobilesubstrate, firmware (>= 14.0)
+Filename: debs/com.ioscpy.device_0.1.6_iphoneos-arm64.deb
+Size: 52444
+MD5sum: 29f363630f67ffaa6d2853a0d8017dbc
+SHA1: 4789b2b3e697017fec5c77fd860e8a7b69d4f81b
+SHA256: b6c8718b4b5d94cf8eddaf066638ca5efca6aa0f72821c23923e1a077b1b012c
+Section: Tweaks
+Description: Miroir USB de l'iPhone. Le premier appui marche sans touche préalable.
+Name: ioscpy
+Homepage: https://lautarovculic.com
+Depiction: https://codego002.github.io/depictions/com.ioscpy.device/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.ioscpy.device/depiction.json
+
 Package: com.codego.instalivecam
 Version: 0.2.2
 Architecture: iphoneos-arm64
