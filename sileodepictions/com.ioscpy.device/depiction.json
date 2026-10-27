@@ -14,7 +14,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Miroir USB de l'iPhone, avec la souris et le clavier du PC. Le premier clic marche tout de suite. Respring après l'installation. Rootless (/var/jb), iOS 15 ou plus. Testé sur iPhone 8.",
+          "markdown": "Miroir de l'iPhone, avec la souris et le clavier du PC. 15 images par seconde, image plus petite, plus vif a distance. Le premier clic marche tout de suite. Respring apres l'installation. Rootless (/var/jb), iOS 15 ou plus. Teste sur iPhone XR.",
           "useSpacing": true
         },
         {
@@ -28,7 +28,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "0.1.6"
+          "text": "0.1.7"
         },
         {
           "class": "DepictionTableTextView",
@@ -52,12 +52,12 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "v0.1.6",
+          "title": "v0.1.7",
           "useBoldText": true
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Le premier appui dans la fenêtre PC marche sans touche préalable sur l'iPhone\n- Respring après l'installation",
+          "markdown": "- 15 images par seconde, image plus petite\n- Plus leger pour un PC distant\n- Le premier appui marche sans touche prealable\n- Respring apres l'installation",
           "useSpacing": true
         }
       ]

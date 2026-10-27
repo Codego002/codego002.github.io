@@ -6,12 +6,12 @@ Codename: ios
 Architectures: iphoneos-arm64
 Components: main
 Description: CodeGo's iOS Tweaks & Apps Repository
-Date: lun., 26 oct. 2026 17:41:48 UTC
+Date: mar., 27 oct. 2026 02:12:13 UTC
 MD5Sum:
- 0a3f293bb71d4ea95ecd91cf78df7dff 14204 Packages
- 5fca83e3f590c76449442f49b481436c 3861 Packages.gz
- 42caf3cae8b57ce4192f5d0f5b5cdbc0 3816 Packages.bz2
+ 46141adb036cce3333c71142b929a2ae 15024 Packages
+ 8f4e4648f87da94e0b55a9984afe7e7b 4002 Packages.gz
+ 9cbe802f64e79047e5278a2683232eb9 3993 Packages.bz2
 SHA256:
- 6921185edd6b0f6ca0c743605d2c8d2f34c97adb54a6607b85cc75c7789786fc 14204 Packages
- 406e1a4c0530c957b9cae3aff1dbb8bafd0699ad2f269aee91d735ad75a3a3b4 3861 Packages.gz
- 281987b2c5b0d8da62e404b9249731173a64e4141e452c1b67965438e1a246b7 3816 Packages.bz2
+ 1556564270a6f0e51a61754bb7d6cad6896bc20c8ab4c48892b63ae5b5f99efe 15024 Packages
+ e0355dd2bb482367e0ce63139dbe37fe88b2db0b1ab2a0f60bd0dfd79280ea0b 4002 Packages.gz
+ 7ee5c20870e2af62296f336ecb8b42db4ddc60ed33d86d86f76680db0ff3de37 3993 Packages.bz2

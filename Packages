@@ -1,4 +1,23 @@
 Package: com.ioscpy.device
+Version: 0.1.7
+Architecture: iphoneos-arm64
+Maintainer: Lautaro Villarreal Culic' <lautaro@lautarovculic.com>
+Author: Lautaro Villarreal Culic' <lautaro@lautarovculic.com>
+Installed-Size: 604
+Depends: ellekit | mobilesubstrate, firmware (>= 14.0)
+Filename: debs/com.ioscpy.device_0.1.7_iphoneos-arm64.deb
+Size: 52534
+MD5sum: 41df682a839768c3e3efb3f6629267c1
+SHA1: d049a7134443cb51ed3e0b6275165e5d9f3a9f35
+SHA256: 848338ef6ac8ed132620eb5f961919858c6f0b5aad7159986bf48c1918bfa1de
+Section: Tweaks
+Description: Miroir de l'iPhone, 15 images par seconde, plus leger a distance.
+Name: ioscpy
+Homepage: https://lautarovculic.com
+Depiction: https://codego002.github.io/depictions/com.ioscpy.device/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.ioscpy.device/depiction.json
+
+Package: com.ioscpy.device
 Version: 0.1.6
 Architecture: iphoneos-arm64
 Maintainer: Lautaro Villarreal Culic' <lautaro@lautarovculic.com>
