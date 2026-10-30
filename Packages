@@ -360,6 +360,25 @@ Icon: https://codego002.github.io/debs/maplocghost-icon.png
 Depiction: https://codego002.github.io/depictions/com.codego.maplocghost/info.xml
 SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.maplocghost/depiction.json
 
+Package: com.codego.maplocghost
+Version: 0.0.43
+Architecture: iphoneos-arm64
+Maintainer: CodeGo
+Author: CodeGo
+Installed-Size: 908
+Depends: mobilesubstrate
+Filename: debs/com.codego.maplocghost_0.0.43_iphoneos-arm64.deb
+Size: 126414
+MD5sum: 5ebf70773cfff69cf3cad50e8a3155b1
+SHA1: 9251274143c58dd5fb3c1d0cb062352bf635bc07
+SHA256: aeaa66465a3c663cc2fd1a34e7020f24782c55a830f8f8fab7f93f14d78d41f5
+Section: Tweaks
+Description: Carte conteneur avec ville, âge, type, lien et note. Le swipe droit ouvre Lien, Note et la première ligne de la note.
+Name: MapLocGhost
+Icon: https://codego002.github.io/debs/maplocghost-icon.png
+Depiction: https://codego002.github.io/depictions/com.codego.maplocghost/info.xml
+SileoDepiction: https://codego002.github.io/sileodepictions/com.codego.maplocghost/depiction.json
+
 Package: com.fruitzauto.tweak
 Version: 0.0.7-1+debug
 Architecture: iphoneos-arm64

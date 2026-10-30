@@ -26,7 +26,7 @@
           "class": "DepictionSeparatorView"
         },
         {"class": "DepictionTableTextView","title": "Package ID","text": "com.codego.maplocghost"},
-        {"class": "DepictionTableTextView","title": "Version","text": "0.0.34"},
+        {"class": "DepictionTableTextView","title": "Version","text": "0.0.43"},
         {"class": "DepictionTableTextView","title": "Requires","text": "LocSim by Mika, Crane, iOS 15+"},
         {"class": "DepictionTableTextView","title": "Maintainer","text": "CodeGo"},
         {"class": "DepictionSpacerView","spacing": 16}
@@ -36,6 +36,12 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {"class": "DepictionSubheaderView","title": "v0.0.43","useBoldText": true},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- La carte garde la même hauteur avec un lien ou une note\n- Icône lien native ; l'icône note seulement s'il n'y a pas de lien\n- Swipe droit : Lien, Note, et la première ligne de la note",
+          "useSpacing": true
+        },
         {"class": "DepictionSubheaderView","title": "v0.0.34","useBoldText": true},
         {
           "class": "DepictionMarkdownView",

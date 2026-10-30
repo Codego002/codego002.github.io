@@ -33,7 +33,7 @@ Nécessite LocSim by Mika et Crane.</string>
         <dict>
           <key>class</key><string>DepictionTableTextView</string>
           <key>title</key><string>Version</string>
-          <key>text</key><string>0.0.34</string>
+          <key>text</key><string>0.0.43</string>
         </dict>
         <dict>
           <key>class</key><string>DepictionTableTextView</string>
@@ -51,6 +51,16 @@ Nécessite LocSim by Mika et Crane.</string>
       <key>tabname</key><string>Changelog</string>
       <key>views</key>
       <array>
+        <dict>
+          <key>class</key><string>DepictionSubheaderView</string>
+          <key>title</key><string>v0.0.43</string>
+        </dict>
+        <dict>
+          <key>class</key><string>DepictionMarkdownTextView</string>
+          <key>markdown</key><string>- La carte garde la même hauteur avec un lien ou une note
+- Icône lien native ; l'icône note seulement s'il n'y a pas de lien
+- Swipe droit : Lien, Note, et la première ligne de la note</string>
+        </dict>
         <dict>
           <key>class</key><string>DepictionSubheaderView</string>
           <key>title</key><string>v0.0.34</string>
